@@ -83,7 +83,7 @@ public class ButtonPushClick : MonoBehaviour
 
         }
         //Load Scene
-       // SceneLoader.instance.LoadScene("GameScene");
+        SceneLoader.instance.LoadScene("GameScene");
 
     }
 

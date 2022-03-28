@@ -22,102 +22,102 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51504
+50698
 Successfully changed project path to: /Users/macbookpro2017/Unity Project/NinjaFruitVR
 /Users/macbookpro2017/Unity Project/NinjaFruitVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.83 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 9.42 ms.
+Refreshing native plugins compatible for Editor in 101.41 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 7.42 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/macbookpro2017/Unity Project/NinjaFruitVR/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-22 18:33:17.722 Unity[15765:863006] Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
-2022-03-22 18:33:17.722 Unity[15765:863006] Metal devices available: 2
-2022-03-22 18:33:17.722 Unity[15765:863006] 0: AMD Radeon Pro 555 (high power)
-2022-03-22 18:33:17.722 Unity[15765:863006] 1: Intel(R) HD Graphics 630 (low power)
-2022-03-22 18:33:17.723 Unity[15765:863006] Using device AMD Radeon Pro 555 (high power)
+2022-03-27 09:38:52.550 Unity[1598:59932] Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+2022-03-27 09:38:52.550 Unity[1598:59932] Metal devices available: 2
+2022-03-27 09:38:52.550 Unity[1598:59932] 0: AMD Radeon Pro 555 (high power)
+2022-03-27 09:38:52.550 Unity[1598:59932] 1: Intel(R) HD Graphics 630 (low power)
+2022-03-27 09:38:52.551 Unity[1598:59932] Using device AMD Radeon Pro 555 (high power)
 Initializing Metal device caps: AMD Radeon Pro 555
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56765
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56598
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.007216 seconds.
+Registered in 0.000607 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 78.58 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
+Refreshing native plugins compatible for Editor in 79.48 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
+- Completed reload, in  0.885 seconds
 Domain Reload Profiling:
-	ReloadAssembly (905ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (724ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009398 seconds.
+Registered in 0.002530 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
+- Completed reload, in  1.612 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1511ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1613ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1223ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (496ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (449ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.039230 seconds.
+Validating Project structure ... 0.044711 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.138684 seconds.
+Upgrading shader files ...0.097719 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,19 +128,19 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.76 ms.
-Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 315.5 MB.
 System memory in use after: 314.4 MB.
 
-Unloading 506 unused Assets to reduce memory usage. Loaded Objects now: 3096.
-Total: 6.381178 ms (FindLiveObjects: 0.668980 ms CreateObjectMapping: 0.436556 ms MarkObjects: 4.222316 ms  DeleteObjects: 1.051290 ms)
+Unloading 507 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 4.960562 ms (FindLiveObjects: 0.396063 ms CreateObjectMapping: 0.211080 ms MarkObjects: 3.218422 ms  DeleteObjects: 1.134189 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -154,491 +154,305 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Ninja Fruit Games/Models
-  artifactKey: Guid(8325644f4acb7264abdcbaa96f1750e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Models using Guid(8325644f4acb7264abdcbaa96f1750e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df7fca40381a56b69a42b6e6e488b5b') in 0.005521 seconds 
+  path: Assets/Ninja Fruit Games/Scripts/ButtonPushClick.cs
+  artifactKey: Guid(5a67fa726803ae64297bbb4f9bdc4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Scripts/ButtonPushClick.cs using Guid(5a67fa726803ae64297bbb4f9bdc4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf08be575f90adb7c29915f7849f80') in 0.425609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.371170 seconds.
-  path: Assets/Ninja Fruit Games/Audio/WelcomeAndInstructions.mp3
-  artifactKey: Guid(582a055580e164f7fa1ce90542e10058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Audio/WelcomeAndInstructions.mp3 using Guid(582a055580e164f7fa1ce90542e10058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faf7ba5c93a189e620dfad8a3afc631') in 1.589002 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 26.59 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.9 MB.
-System memory in use after: 260.8 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3104.
-Total: 5.028209 ms (FindLiveObjects: 0.280290 ms CreateObjectMapping: 0.179854 ms MarkObjects: 4.268345 ms  DeleteObjects: 0.298728 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1631.191768 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCube.prefab
+  artifactKey: Guid(f1044f83bc9ee9145b22f20847ceb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCube.prefab using Guid(f1044f83bc9ee9145b22f20847ceb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '49e0edc8f5c867104e0bb610692fee4f') in 2.326032 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1737.274567 seconds.
-  path: Assets/Ninja Fruit Games/Audio/WelcomeAndInstructions.mp3
-  artifactKey: Guid(582a055580e164f7fa1ce90542e10058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Audio/WelcomeAndInstructions.mp3 using Guid(582a055580e164f7fa1ce90542e10058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975516f0ea9ac2d71b54bb1b768ab3f') in 0.065814 seconds 
+  Time since last request: 15.083813 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCubeShatterAnimation.FBX
+  artifactKey: Guid(5ffa061762077c44d92ba72a9866833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCubeShatterAnimation.FBX using Guid(5ffa061762077c44d92ba72a9866833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2720baade954d0e5de9266662afbf9') in 0.744517 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2186.559862 seconds.
-  path: Assets/Ninja Fruit Games/Scripts/DelaySound.cs
-  artifactKey: Guid(e3cb65bfa7c364b75b99cf3f5a2d9602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Scripts/DelaySound.cs using Guid(e3cb65bfa7c364b75b99cf3f5a2d9602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b27ea2f61974bf6093432f945d5ee9') in 0.435960 seconds 
+  Time since last request: 3718.235168 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCube.prefab
+  artifactKey: Guid(f1044f83bc9ee9145b22f20847ceb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Gun Cube/GunCube.prefab using Guid(f1044f83bc9ee9145b22f20847ceb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c7c3249a2abd7219509ad37df6f4b8a1') in 0.094149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2594.960684 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs
+  artifactKey: Guid(b7da95d25788c7841b03f8caa2d07339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs using Guid(b7da95d25788c7841b03f8caa2d07339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1606bef8c3eb4f8c179041c230966') in 0.001287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.420367 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/GunPrefabs
+  artifactKey: Guid(fcbc14f2c4e8bcf4abe0bd5e3ada454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/GunPrefabs using Guid(fcbc14f2c4e8bcf4abe0bd5e3ada454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c170d426064659638418f58eecbb6ac3') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.182512 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/GunPrefabs/Gun.prefab
+  artifactKey: Guid(16dd2807eb93b244e9bcc64168d59b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/GunPrefabs/Gun.prefab using Guid(16dd2807eb93b244e9bcc64168d59b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'cf166a19a12fa5469a880992432365a4') in 1.136628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/GunPrefabs/GunWithShooting.prefab
+  artifactKey: Guid(99930b2561abfaa4cae77974a386e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/GunPrefabs/GunWithShooting.prefab using Guid(99930b2561abfaa4cae77974a386e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7d1917a82a0b08d8896324b69dcad5d1') in 0.208753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2356.535194 seconds.
+  path: Assets/Ninja Fruit Games/Audio/fantasy-orchestra.wav
+  artifactKey: Guid(30ffd95c028ba74409389c3370776546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Audio/fantasy-orchestra.wav using Guid(30ffd95c028ba74409389c3370776546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1590c2f9a3117b8ffd66c8932a662') in 1.377925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Ninja Fruit Games/Audio/gunSound.wav
+  artifactKey: Guid(da01a2dfd2a23a8468d394b15f96da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Audio/gunSound.wav using Guid(da01a2dfd2a23a8468d394b15f96da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a58265eabce39f57b6607039f4c3c5') in 0.019633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Ninja Fruit Games/Audio/SliceSound.wav
+  artifactKey: Guid(ab06b989577f4eb4a9dc9987190e3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Audio/SliceSound.wav using Guid(ab06b989577f4eb4a9dc9987190e3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ef0b9b5944b963e5878ad8289ad4f') in 0.025696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3208.474394 seconds.
+  path: Assets/Ninja Fruit Games/Audio/heat-vision.mp3
+  artifactKey: Guid(9ba05caa8f8fd4c9e9757aa9fc087c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Audio/heat-vision.mp3 using Guid(9ba05caa8f8fd4c9e9757aa9fc087c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bd897b7ba03d92244494503ec440a7') in 1.309427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1728.857679 seconds.
+  path: Assets/Ninja Fruit Games/Materials/BaseMat.mat
+  artifactKey: Guid(7345e75bb5229284d824148ddf60838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/BaseMat.mat using Guid(7345e75bb5229284d824148ddf60838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d67ef56504f25b0ea9e33db714b44c') in 0.282551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Ninja Fruit Games/Materials/CyberpunkCube_SliceFX.mat
+  artifactKey: Guid(d63f9ee553af93244a8a3b708539d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/CyberpunkCube_SliceFX.mat using Guid(d63f9ee553af93244a8a3b708539d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697ad4defc5aa60865c953ff9e9ac4d2') in 0.412113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Ninja Fruit Games/Materials/Hologram Simple 1.mat
+  artifactKey: Guid(116785bd561ce7242abdef9608c9ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/Hologram Simple 1.mat using Guid(116785bd561ce7242abdef9608c9ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06e33deb8225f15fc4ec2102af0f4e3') in 0.052858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Ninja Fruit Games/Materials/GreenMaterial.mat
+  artifactKey: Guid(c45dd88cffb848640b2231758a934000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/GreenMaterial.mat using Guid(c45dd88cffb848640b2231758a934000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec01cf61f4f940d1c3f40b9ed25f16e') in 0.018447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Ninja Fruit Games/Materials/white.mat
+  artifactKey: Guid(c3f7f0d48caf28246b976ac210b1cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/white.mat using Guid(c3f7f0d48caf28246b976ac210b1cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7fc192d31fbe19c852e19e3a088288') in 0.046621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Ninja Fruit Games/Materials/red.mat
+  artifactKey: Guid(6d15b8b751c5f3c449033b6514604f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/red.mat using Guid(6d15b8b751c5f3c449033b6514604f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c793b52db5d3969aaea480e5f81d5fb') in 0.029404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Ninja Fruit Games/Materials/blue.mat
+  artifactKey: Guid(31203e5147bbef541a896d5c8ba993ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/blue.mat using Guid(31203e5147bbef541a896d5c8ba993ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66dac9f36c2ae3e555f1767d321a2f4') in 0.014305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Ninja Fruit Games/Materials/RedMaterial.mat
+  artifactKey: Guid(2ceb0cceec873bb48b19b9496bbaf820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/RedMaterial.mat using Guid(2ceb0cceec873bb48b19b9496bbaf820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741bfe7d51dedccc7b7f0e2eb94f47e2') in 0.030208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Ninja Fruit Games/Materials/BulletTrailEffectMat.mat
+  artifactKey: Guid(d5998b202f85e3d4ab2c54f0bbed5197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/BulletTrailEffectMat.mat using Guid(d5998b202f85e3d4ab2c54f0bbed5197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e4a2ab6c954aa91015daa4b3e350bd') in 0.019496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Ninja Fruit Games/Materials/CyberpunkCube_MetalFrame.mat
+  artifactKey: Guid(fca212907c3b0774ca2e96e23f635b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/CyberpunkCube_MetalFrame.mat using Guid(fca212907c3b0774ca2e96e23f635b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae69ee4276c5ca054844e88eeac075') in 0.178099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Ninja Fruit Games/Materials/Black.mat
+  artifactKey: Guid(04ce02a9e3c32414a8edcbd15895671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/Black.mat using Guid(04ce02a9e3c32414a8edcbd15895671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030095f301ea58ab28ce06fddfc4c755') in 0.021898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.170601 seconds.
+  path: Assets/Ninja Fruit Games/Materials/Gun
+  artifactKey: Guid(34fc81fbcdf7cb148bbd8907d73f333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/Gun using Guid(34fc81fbcdf7cb148bbd8907d73f333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8717d6c5da6b12cba4033eabbe3c6a03') in 0.001700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087974 seconds.
+  path: Assets/Ninja Fruit Games/Materials/Gun/Gun Material.mat
+  artifactKey: Guid(cd8977baaf9f61149836f492caac139c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Materials/Gun/Gun Material.mat using Guid(cd8977baaf9f61149836f492caac139c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '60c592d7356ef7c136b5cc8b3e48263b') in 0.214330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.834092 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist.prefab
+  artifactKey: Guid(b042689a1b5015a419f520f39f393855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist.prefab using Guid(b042689a1b5015a419f520f39f393855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3e572ffa649d116388947ccf14f33a7d') in 0.110975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist_3.FBX
+  artifactKey: Guid(318eafc74d0cbe3459e01e4a6725e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist_3.FBX using Guid(318eafc74d0cbe3459e01e4a6725e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264f107f996d5b7d955b57a0b6c5f13f') in 0.070207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist_2.FBX
+  artifactKey: Guid(4b9508929c03f3d4182f26f79f992346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Environment_Light_Twist_2.FBX using Guid(4b9508929c03f3d4182f26f79f992346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94f95b27e632b01c932357fb6b95e30') in 0.044505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.330814 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Sword
+  artifactKey: Guid(99cd5d2509573ec4eb36f1b8c4016caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Sword using Guid(99cd5d2509573ec4eb36f1b8c4016caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565de43576fe861f74fd7a6aff672007') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094673 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Sword/Sword.prefab
+  artifactKey: Guid(835701cc56c15794caeb57249ccffae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Sword/Sword.prefab using Guid(835701cc56c15794caeb57249ccffae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ece09774782ebfb8dc60ca0a5caa09aa') in 0.458687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.583156 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/SwordCube
+  artifactKey: Guid(2f7e3fb6478ceb447b466c67f3e03179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/SwordCube using Guid(2f7e3fb6478ceb447b466c67f3e03179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad514080bf2eb7bee4f54b4ecd86226') in 0.006758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035215 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/SwordCube/SwordCube.prefab
+  artifactKey: Guid(b33d44cc0102bbb4db363d552a024fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/SwordCube/SwordCube.prefab using Guid(b33d44cc0102bbb4db363d552a024fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '43b00d88b4d0cfc51cc43023ff8cec96') in 0.075501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.517056 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/VFX
+  artifactKey: Guid(71fa362ec586e4b48bccbe8916fb97df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/VFX using Guid(71fa362ec586e4b48bccbe8916fb97df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200248cba6a5ff5904652594b0855f80') in 0.006519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067426 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/VFX/Slash_Hit1.prefab
+  artifactKey: Guid(c9195fd1af1289d45896d3e553af48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/VFX/Slash_Hit1.prefab using Guid(c9195fd1af1289d45896d3e553af48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '07afbcfcb6677e7cfbdf5f3866f4666c') in 0.270736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit.mat
+  artifactKey: Guid(993d3f964a3dcfe478ab65c263a134cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit.mat using Guid(993d3f964a3dcfe478ab65c263a134cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ee29603cfe7ed5e02a961b2701d9488d') in 0.048981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit.png
+  artifactKey: Guid(ce3b46d6c0317d047902492425331925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit.png using Guid(ce3b46d6c0317d047902492425331925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '622de869cbc1b4800792ceb7b7bd7936') in 1.183998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit_Shine.prefab
+  artifactKey: Guid(28818d55a5cea9244b3739cdbf6a9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/VFX/SlashHit_Shine.prefab using Guid(28818d55a5cea9244b3739cdbf6a9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa1e7254151121fa1d6e6e9fa5ee8dc') in 0.034111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.989067 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Gun Cube
+  artifactKey: Guid(2f4ab82983e68a34e9fa6e4dae6f20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Gun Cube using Guid(2f4ab82983e68a34e9fa6e4dae6f20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a2de689d8896cff436ddfefcf84e03') in 0.007020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5466.182684 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Bullet
+  artifactKey: Guid(e90923bf0bc5c6d42b25bdef51266d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Bullet using Guid(e90923bf0bc5c6d42b25bdef51266d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555f1f12e5e00b4e7154ec07420527a2') in 0.001183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.103739 seconds.
+  path: Assets/Ninja Fruit Games/Prefabs/Bullet/Bullet.prefab
+  artifactKey: Guid(5fe6ddd978f98334db23e9de98e4766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Prefabs/Bullet/Bullet.prefab using Guid(5fe6ddd978f98334db23e9de98e4766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5245e8cc01b609c8d0cb5dfcf9935ae') in 0.014089 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011525 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.37 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.617 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1618ms)
-		BeginReloadAssembly (246ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (1280ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (466ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 313.8 MB.
-System memory in use after: 313.7 MB.
-
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3109.
-Total: 3.785490 ms (FindLiveObjects: 0.242387 ms CreateObjectMapping: 0.134776 ms MarkObjects: 3.113334 ms  DeleteObjects: 0.294289 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 148.597542 seconds.
-  path: Assets/Ninja Fruit Games/Scripts/AudioManager.cs
-  artifactKey: Guid(b539a71ab2b12444485b265e1f6e6589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Scripts/AudioManager.cs using Guid(b539a71ab2b12444485b265e1f6e6589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24aee9b1b2c2b8418613d201d39e022') in 0.008301 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006407 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1165ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 314.2 MB.
-System memory in use after: 314.1 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3112.
-Total: 3.740472 ms (FindLiveObjects: 0.237784 ms CreateObjectMapping: 0.129980 ms MarkObjects: 3.051353 ms  DeleteObjects: 0.320457 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.447 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1447ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1188ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (415ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 314.4 MB.
-System memory in use after: 314.4 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3115.
-Total: 4.165672 ms (FindLiveObjects: 0.251088 ms CreateObjectMapping: 0.133087 ms MarkObjects: 3.386209 ms  DeleteObjects: 0.394493 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 17.86 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 266.0 MB.
-System memory in use after: 265.9 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3115.
-Total: 4.024343 ms (FindLiveObjects: 0.236159 ms CreateObjectMapping: 0.120649 ms MarkObjects: 3.253421 ms  DeleteObjects: 0.413403 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004387 seconds.
+Registered in 0.012475 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.427 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1428ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1189ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (437ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (430ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 314.6 MB.
-System memory in use after: 314.6 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3118.
-Total: 3.813089 ms (FindLiveObjects: 0.250214 ms CreateObjectMapping: 0.136238 ms MarkObjects: 3.022687 ms  DeleteObjects: 0.403005 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2173.996430 seconds.
-  path: Assets/Ninja Fruit Games/Scripts/DelaySound.cs
-  artifactKey: Guid(e3cb65bfa7c364b75b99cf3f5a2d9602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Scripts/DelaySound.cs using Guid(e3cb65bfa7c364b75b99cf3f5a2d9602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94a4830136a6a8df18051a7bacf3996') in 0.009251 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1504ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (1247ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (470ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 314.8 MB.
-System memory in use after: 314.7 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3121.
-Total: 3.879890 ms (FindLiveObjects: 0.248553 ms CreateObjectMapping: 0.149454 ms MarkObjects: 3.128002 ms  DeleteObjects: 0.353191 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.14 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.572 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1572ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (1337ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (465ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (503ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 315.0 MB.
-System memory in use after: 314.9 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3124.
-Total: 6.106783 ms (FindLiveObjects: 0.414455 ms CreateObjectMapping: 0.169570 ms MarkObjects: 4.926676 ms  DeleteObjects: 0.594552 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.29 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 266.6 MB.
-System memory in use after: 266.5 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3124.
-Total: 3.831221 ms (FindLiveObjects: 0.258972 ms CreateObjectMapping: 0.143003 ms MarkObjects: 3.062314 ms  DeleteObjects: 0.366338 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
+Preloading 1 native plugins for Editor in 0.71 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.475 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1475ms)
-		BeginReloadAssembly (148ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1242ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
+			SetupTypeCache (430ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (480ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -646,14 +460,14 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.63 ms.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
 Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 315.2 MB.
-System memory in use after: 315.1 MB.
+System memory in use before: 360.2 MB.
+System memory in use after: 360.1 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3127.
-Total: 4.079497 ms (FindLiveObjects: 0.343599 ms CreateObjectMapping: 0.130635 ms MarkObjects: 3.251806 ms  DeleteObjects: 0.352777 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3151.
+Total: 4.323849 ms (FindLiveObjects: 0.379579 ms CreateObjectMapping: 0.190642 ms MarkObjects: 3.420198 ms  DeleteObjects: 0.332186 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -668,71 +482,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 532.455707 seconds.
-  path: Assets/Ninja Fruit Games/Scripts/ButtonPushClick.cs
-  artifactKey: Guid(5a67fa726803ae64297bbb4f9bdc4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Scripts/ButtonPushClick.cs using Guid(5a67fa726803ae64297bbb4f9bdc4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34aebc49ed099b39701369287097175') in 0.008257 seconds 
+  Time since last request: 1869.261431 seconds.
+  path: Assets/Ninja Fruit Games/Scripts/Shooting.cs
+  artifactKey: Guid(78915f78aec24cf40a52e072b7183a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja Fruit Games/Scripts/Shooting.cs using Guid(78915f78aec24cf40a52e072b7183a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344218550b392e3ebdb60b7996352699') in 0.010003 seconds 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 25.49 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Refreshing native plugins compatible for Editor in 17.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
 Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 266.8 MB.
-System memory in use after: 266.7 MB.
+System memory in use before: 312.2 MB.
+System memory in use after: 312.2 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3127.
-Total: 4.275738 ms (FindLiveObjects: 0.262568 ms CreateObjectMapping: 0.133732 ms MarkObjects: 3.498525 ms  DeleteObjects: 0.380137 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3305.337227 seconds.
-  path: Assets/Ninja Fruit Games/Audio/Call of Duty® - Mobile - Season 9 Theme Music Behind the Scenes.mp3
-  artifactKey: Guid(c92c3de89857143eba27c91da203a084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja Fruit Games/Audio/Call of Duty® - Mobile - Season 9 Theme Music Behind the Scenes.mp3 using Guid(c92c3de89857143eba27c91da203a084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f09883109998b9aa2fb2c828766f92e') in 0.151750 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 18.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.94 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.7 MB.
-System memory in use after: 267.6 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 9.119645 ms (FindLiveObjects: 0.296566 ms CreateObjectMapping: 0.161625 ms MarkObjects: 8.161414 ms  DeleteObjects: 0.498926 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 20.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.66 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.7 MB.
-System memory in use after: 267.6 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 5.234532 ms (FindLiveObjects: 0.308705 ms CreateObjectMapping: 0.190225 ms MarkObjects: 4.336993 ms  DeleteObjects: 0.397388 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3151.
+Total: 3.648337 ms (FindLiveObjects: 0.247828 ms CreateObjectMapping: 0.131718 ms MarkObjects: 2.959258 ms  DeleteObjects: 0.308851 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
