@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23874901463228454}
   - component: {fileID: -651141395179704481}
   - component: {fileID: -7088800242837986572}
-  - component: {fileID: -7420527485643142013}
-  m_Layer: 0
+  - component: {fileID: 3957595160763907216}
+  m_Layer: 6
   m_Name: banana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1407451490957870}
   m_LocalRotation: {x: -0.46847895, y: 0.526043, z: 0.5514351, w: 0.44690675}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_LocalScale: {x: 45, y: 45, z: 45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &-7420527485643142013
+--- !u!65 &3957595160763907216
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +121,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407451490957870}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.4, z: 0.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.014319032, y: 0.010550386, z: 0.01484282}
+  m_Center: {x: -0.0012692912, y: 0.0009908592, z: -3.1266367e-10}

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 23272747751323546}
   - component: {fileID: -7886006981857198670}
   - component: {fileID: -1718910881325192192}
-  - component: {fileID: 6455514440180071174}
   m_Layer: 0
   m_Name: cherries
   m_TagString: Untagged
@@ -28,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802840387486672}
-  m_LocalRotation: {x: -0.8047191, y: 0.16662298, z: 0.50382125, w: 0.26613542}
+  m_LocalRotation: {x: -0.30632553, y: 0.10439316, z: -0.033818677, w: -0.9455808}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 39, z: 30}
+  m_LocalScale: {x: 45, y: 45, z: 45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -143.4, y: 64.1, z: 0}
+  m_LocalEulerAnglesHint: {x: -324.1, y: -12.6, z: 0}
 --- !u!33 &33317395272862110
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -113,16 +112,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &6455514440180071174
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802840387486672}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.4, z: 0.4}
-  m_Center: {x: 0, y: 0, z: 0}

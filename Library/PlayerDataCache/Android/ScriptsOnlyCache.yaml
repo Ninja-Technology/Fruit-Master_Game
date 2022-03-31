@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - AudioManager
     - Bullet
     - ButtonPushClick
-    - CubeExplode
     - CubeKiller
     - CubePhysics
     - CubeSpawnManager
@@ -15,6 +14,8 @@ ScriptsOnlyBuild:
     - SceneLoader
     - ScoreManager
     - Shooting
+    - SliceListener
+    - Slicer
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.Spatializer.dll:
@@ -83,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -105,46 +108,46 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1702}
     - Class: 114
       Script: {instanceID: 1710}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1876}
     - Class: 114
-      Script: {instanceID: 1866}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2542}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3744}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 3876}
+      Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 4096}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5832}
     - Class: 114
-      Script: {instanceID: 5820}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 6346}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 6458}
+    - Class: 114
+      Script: {instanceID: 6718}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,6 +159,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -213,53 +220,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1710}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2088}
+      Script: {instanceID: 2098}
     - Class: 114
-      Script: {instanceID: 2120}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2206}
-    - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2216}
     - Class: 114
       Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 2542}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 4052}
+      Script: {instanceID: 3926}
     - Class: 114
-      Script: {instanceID: 5198}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 5206}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5218}
     - Class: 114
-      Script: {instanceID: 5572}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 5632}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 6450}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 6480}
+      Script: {instanceID: 6462}
+    - Class: 114
+      Script: {instanceID: 6492}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1205,6 +1212,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: fd92c2a103346e65a5a3e078e6dbea45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: fruits_tester
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a

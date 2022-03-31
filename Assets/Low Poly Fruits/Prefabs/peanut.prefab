@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23687049907564026}
   - component: {fileID: -5248496679567291280}
   - component: {fileID: -463213232846115566}
-  - component: {fileID: -4324619545138046593}
-  m_Layer: 0
+  - component: {fileID: 5509785891822882817}
+  m_Layer: 6
   m_Name: peanut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329430274803916}
-  m_LocalRotation: {x: -0.013948814, y: 0.043615155, z: 0.0006090186, w: 0.9989509}
+  m_LocalRotation: {x: 0.4537273, y: -0.54175216, z: -0.54554766, w: -0.45057058}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_LocalScale: {x: 45, y: 45, z: 45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.6, y: 5, z: 0}
+  m_LocalEulerAnglesHint: {x: 269.6, y: 100.5, z: 0}
 --- !u!33 &33770515996130108
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &-4324619545138046593
+--- !u!65 &5509785891822882817
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +121,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329430274803916}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.4, z: 0.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.009677194, y: 0.008380696, z: 0.019567488}
+  m_Center: {x: -2.0816682e-17, y: -4.656612e-10, z: 2.394054e-17}
