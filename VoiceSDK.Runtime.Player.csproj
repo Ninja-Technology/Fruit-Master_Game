@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{35B3A4FA-A552-BA90-73B0-90E1BDF96F25}</ProjectGuid>
+    <ProjectGuid>{94AD9D64-1A04-FCD2-310D-9E9EB89FE819}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VoiceSDK.Runtime</AssemblyName>
@@ -241,7 +241,7 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -591,17 +591,17 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{6D21120A-E576-0375-3C4A-4D77651D7027}</Project>
+      <Project>{34C44FE4-4344-EACD-4ABE-D73AAEAEB10A}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{4248EBD4-5711-937B-C79B-B56F8B06312D}</Project>
+      <Project>{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}</Project>
       <Name>Facebook.WitAI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{8858FF2A-F078-C946-EB6F-D6B06A4ADAD5}</Project>
+      <Project>{25964B59-5453-A178-9986-31480B1F5BC6}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

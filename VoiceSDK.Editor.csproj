@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{586E622E-7626-7476-2BA4-073FA157B037}</ProjectGuid>
+    <ProjectGuid>{A661D07C-D5CF-FDB9-AD51-277033C8FEF7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VoiceSDK.Editor</AssemblyName>
@@ -295,19 +295,19 @@
  <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/macbookpro2017/Unity Project/NinjaFruitVR/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -660,37 +660,37 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{207BB17D-CF13-5971-7FCB-AD18D3FA1372}</Project>
+      <Project>{DC8DFE38-8AF2-D0E6-2A51-93A7C46E2D93}</Project>
       <Name>VoiceSDK.Runtime</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{4248EBD4-5711-937B-C79B-B56F8B06312D}</Project>
+      <Project>{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}</Project>
       <Name>Facebook.WitAI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{A7E9AC8D-A3B9-70CF-CA5E-6DBEDF96F95B}</Project>
+      <Project>{90D6111B-4B01-FB3F-EB32-2532E535A24F}</Project>
       <Name>Facebook.Wit.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{24EDFF10-4465-195C-2D1E-AF1C91E94C5A}</Project>
+      <Project>{380808CE-FAD4-D59F-6CB4-09CA1FAD6336}</Project>
       <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{8858FF2A-F078-C946-EB6F-D6B06A4ADAD5}</Project>
+      <Project>{25964B59-5453-A178-9986-31480B1F5BC6}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{BF4DD545-FAC5-1B6F-9C87-5FDAA07AB9EC}</Project>
+      <Project>{5D9224F3-A059-1A14-7379-749730B9AA28}</Project>
       <Name>UnityEngine.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{39F13074-4C18-4126-B26A-F546C055F519}</Project>
+      <Project>{04A2B22B-F8F6-627F-8D37-D873B41E27E3}</Project>
       <Name>UnityEditor.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
