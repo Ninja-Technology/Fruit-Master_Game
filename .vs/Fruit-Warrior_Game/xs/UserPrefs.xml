@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{4D24A99F-2B4D-F620-967D-65502693A626}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ninja Fruit Games/Scripts/GameSceneManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Desktop/Fruit Ninja-VR/Assets/Scripts/Pooler.cs">
     <Files>
-      <File FileName="Assets/Low Poly Fruits/resources/fruits_tester.cs" Line="18" Column="1" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/CubeSpawnManager.cs" Line="33" Column="1" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/GameSceneManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/CubePhysics.cs" Line="7" Column="28" />
+      <File FileName="../../Desktop/Fruit Ninja-VR/Assets/Scripts/Pooler.cs" Line="168" Column="87" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3e66604-a3da-4d50-9dae-40a04f742dc1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="76149a30-fce1-4128-949c-2940800b95b1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

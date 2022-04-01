@@ -166,7 +166,7 @@
 89-->[:unityLibrary] /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:82:9-84:68
 90            android:name="unity.build-id"
 90-->[:unityLibrary] /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:83:13-42
-91            android:value="df3bf811-c695-4e74-b462-0a7551178ecb" />
+91            android:value="4be9833a-d669-4e87-a671-c8dbaef202d7" />
 91-->[:unityLibrary] /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:84:13-65
 92        <meta-data
 92-->[:unityLibrary] /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:85:9-87:39

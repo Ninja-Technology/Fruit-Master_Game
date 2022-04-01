@@ -23,6 +23,8 @@ public class CubeSpawnManager : MonoBehaviour
         {
             index = Random.Range(0, 4);
             indexcube = Random.Range(0,9);
+
+
             GameObject cube = Instantiate(Cubeprefabs[indexcube], Spawnpoints[index].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             cube.transform.SetParent(transform);
             yield return new WaitForSeconds(timeRate);

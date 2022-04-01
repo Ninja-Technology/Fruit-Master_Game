@@ -3,15 +3,12 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - Bullet
-    - ButtonPushClick
     - CubeKiller
     - CubePhysics
     - CubeSpawnManager
-    - DelaySound
     - DestroyAfterSeconds
     - GameSceneManager
     - OvrAvatarSettings
-    - SceneLoader
     - ScoreManager
     - Shooting
     - SliceListener
@@ -25,14 +22,9 @@ ScriptsOnlyBuild:
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRDebugInfo
     - OVRHeadsetEmulator
     - OVRManager
-    - OVROverlay
-    - OVRPlayerController
     - OVRRuntimeSettings
-    - OVRSceneSampleController
-    - OVRScreenFade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -63,7 +55,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Ninja Fruit Games/Scenes/GameScene.unity:
+    Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -81,6 +73,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -108,46 +102,66 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1702}
     - Class: 114
       Script: {instanceID: 1710}
     - Class: 114
-      Script: {instanceID: 1876}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2190}
+    - Class: 114
+      Script: {instanceID: 2246}
     - Class: 114
       Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2436}
     - Class: 114
-      Script: {instanceID: 2542}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2558}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3410}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 4108}
+      Script: {instanceID: 3746}
     - Class: 114
-      Script: {instanceID: 5556}
+      Script: {instanceID: 3878}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 5898}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 6346}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6458}
+      Script: {instanceID: 5622}
     - Class: 114
-      Script: {instanceID: 6718}
+      Script: {instanceID: 5678}
+    - Class: 114
+      Script: {instanceID: 5822}
+    - Class: 114
+      Script: {instanceID: 5888}
+    - Class: 114
+      Script: {instanceID: 6122}
+    - Class: 114
+      Script: {instanceID: 6336}
+    - Class: 114
+      Script: {instanceID: 6448}
+    - Class: 114
+      Script: {instanceID: 6452}
+    - Class: 114
+      Script: {instanceID: 6482}
+    - Class: 114
+      Script: {instanceID: 6708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -163,123 +177,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Ninja Fruit Games/Scenes/LobbyScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1702}
-    - Class: 114
-      Script: {instanceID: 1710}
-    - Class: 114
-      Script: {instanceID: 2036}
-    - Class: 114
-      Script: {instanceID: 2098}
-    - Class: 114
-      Script: {instanceID: 2130}
-    - Class: 114
-      Script: {instanceID: 2200}
-    - Class: 114
-      Script: {instanceID: 2216}
-    - Class: 114
-      Script: {instanceID: 2256}
-    - Class: 114
-      Script: {instanceID: 2266}
-    - Class: 114
-      Script: {instanceID: 2542}
-    - Class: 114
-      Script: {instanceID: 2568}
-    - Class: 114
-      Script: {instanceID: 2674}
-    - Class: 114
-      Script: {instanceID: 3022}
-    - Class: 114
-      Script: {instanceID: 3162}
-    - Class: 114
-      Script: {instanceID: 3410}
-    - Class: 114
-      Script: {instanceID: 3926}
-    - Class: 114
-      Script: {instanceID: 4064}
-    - Class: 114
-      Script: {instanceID: 5210}
-    - Class: 114
-      Script: {instanceID: 5218}
-    - Class: 114
-      Script: {instanceID: 5556}
-    - Class: 114
-      Script: {instanceID: 5584}
-    - Class: 114
-      Script: {instanceID: 5632}
-    - Class: 114
-      Script: {instanceID: 5688}
-    - Class: 114
-      Script: {instanceID: 6132}
-    - Class: 114
-      Script: {instanceID: 6462}
-    - Class: 114
-      Script: {instanceID: 6492}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -3266,6 +3163,5 @@ ScriptsOnlyBuild:
     className: TrackSegment
   platform: 13
   scenePathNames:
-  - Assets/Ninja Fruit Games/Scenes/LobbyScene.unity
-  - Assets/Ninja Fruit Games/Scenes/GameScene.unity
-  playerPath: /Users/macbookpro2017/Desktop/FruitNinjaVR.apk
+  - Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+  playerPath: /Users/macbookpro2017/Desktop/FruitNinjaVR1.apk
