@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4D24A99F-2B4D-F620-967D-65502693A626}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/polyperfect/Common/Wander Script/Common_WanderScript.cs">
+    <Files>
+      <File FileName="Assets/Ninja Fruit Games/Scripts/CubePhysics.cs" Line="8" Column="27" />
+      <File FileName="../../Desktop/Fruit Ninja-VR/Assets/Scripts/Pooler.cs" />
+      <File FileName="Assets/polyperfect/Common/Wander Script/Common_WanderScript.cs" Line="548" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="08accd68-0018-4d64-b984-b2db51b62382" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

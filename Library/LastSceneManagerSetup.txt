@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Ninja Fruit Games/Scenes/GameScene.unity
+=======
+- path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+>>>>>>> 3e721e10d076731312ee83c1ababfa1174283fd2
   isLoaded: 1
   isActive: 1
   isSubScene: 0
