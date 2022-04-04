@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Spatializer", "Oculu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{88C67CB7-01DF-841E-CF31-6130D9BB46E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Animals", "Polyperfect.Animals.csproj", "{61F4A65F-37D0-5956-0996-E917EC0428D8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.WitAI", "Facebook.WitAI.csproj", "{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{0F9D0B26-A1EC-FF7F-4879-18C2A949EF6D}"
@@ -29,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.csproj", "{7CDBBA03-CC9E-89A0-66B0-7E544DA35053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Common", "Polyperfect.Common.csproj", "{B69CFB68-AC17-D243-1AF6-86C57AAC743E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Samples", "Oculus.Interaction.Samples.csproj", "{F35CEBA3-4769-7658-6F7A-02E6FDC05622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime", "VoiceSDK.Runtime.csproj", "{DC8DFE38-8AF2-D0E6-2A51-93A7C46E2D93}"
@@ -40,10 +44,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Subsystem.Registration", "Unity.Subsystem.Registration.csproj", "{0A4721AC-A69F-AC69-8BDA-B0774207A6DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.csproj", "{03F1A6C7-943A-C73C-BC2C-80730CD4B870}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Animals", "Polyperfect.Animals.csproj", "{61F4A65F-37D0-5956-0996-E917EC0428D8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Common", "Polyperfect.Common.csproj", "{B69CFB68-AC17-D243-1AF6-86C57AAC743E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Editor", "Unity.XR.Management.Editor.csproj", "{9FF5CA4F-AAA5-0D9B-7C15-855D92209245}"
 EndProject
@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Spatializer", "Oculu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.Player.csproj", "{D66320A5-4451-AE8B-3358-B64671B0C649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Animals", "Polyperfect.Animals.Player.csproj", "{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.WitAI", "Facebook.WitAI.Player.csproj", "{7A7A007E-C6EB-3270-3868-8D143112C58A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.Player.csproj", "{E20E8088-A5C0-7379-EE69-423EDE300E56}"
@@ -127,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.Player.csproj", "{9AD6E73F-84F7-0129-C5B5-1A82BC4BD2A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Common", "Polyperfect.Common.Player.csproj", "{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Samples", "Oculus.Interaction.Samples.Player.csproj", "{A23059E4-DECB-1885-C8F3-59B8DD8C0F57}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime", "VoiceSDK.Runtime.Player.csproj", "{94AD9D64-1A04-FCD2-310D-9E9EB89FE819}"
@@ -138,10 +142,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Subsystem.Registration", "Unity.Subsystem.Registration.Player.csproj", "{BEBAB2A2-BBE6-9AE7-BF23-B3CB8D237AA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.Player.csproj", "{39ED9644-4B26-970D-7990-CEDF889AF95F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Animals", "Polyperfect.Animals.Player.csproj", "{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyperfect.Common", "Polyperfect.Common.Player.csproj", "{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +181,10 @@ Global
 		{88C67CB7-01DF-841E-CF31-6130D9BB46E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88C67CB7-01DF-841E-CF31-6130D9BB46E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88C67CB7-01DF-841E-CF31-6130D9BB46E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -205,6 +209,10 @@ Global
 		{7CDBBA03-CC9E-89A0-66B0-7E544DA35053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CDBBA03-CC9E-89A0-66B0-7E544DA35053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CDBBA03-CC9E-89A0-66B0-7E544DA35053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F35CEBA3-4769-7658-6F7A-02E6FDC05622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F35CEBA3-4769-7658-6F7A-02E6FDC05622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F35CEBA3-4769-7658-6F7A-02E6FDC05622}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -229,14 +237,6 @@ Global
 		{03F1A6C7-943A-C73C-BC2C-80730CD4B870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F1A6C7-943A-C73C-BC2C-80730CD4B870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F1A6C7-943A-C73C-BC2C-80730CD4B870}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61F4A65F-37D0-5956-0996-E917EC0428D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B69CFB68-AC17-D243-1AF6-86C57AAC743E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FF5CA4F-AAA5-0D9B-7C15-855D92209245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FF5CA4F-AAA5-0D9B-7C15-855D92209245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FF5CA4F-AAA5-0D9B-7C15-855D92209245}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -377,6 +377,10 @@ Global
 		{D66320A5-4451-AE8B-3358-B64671B0C649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66320A5-4451-AE8B-3358-B64671B0C649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66320A5-4451-AE8B-3358-B64671B0C649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A7A007E-C6EB-3270-3868-8D143112C58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A7A007E-C6EB-3270-3868-8D143112C58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7A007E-C6EB-3270-3868-8D143112C58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -401,6 +405,10 @@ Global
 		{9AD6E73F-84F7-0129-C5B5-1A82BC4BD2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD6E73F-84F7-0129-C5B5-1A82BC4BD2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD6E73F-84F7-0129-C5B5-1A82BC4BD2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A23059E4-DECB-1885-C8F3-59B8DD8C0F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A23059E4-DECB-1885-C8F3-59B8DD8C0F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23059E4-DECB-1885-C8F3-59B8DD8C0F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -425,14 +433,6 @@ Global
 		{39ED9644-4B26-970D-7990-CEDF889AF95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39ED9644-4B26-970D-7990-CEDF889AF95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39ED9644-4B26-970D-7990-CEDF889AF95F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

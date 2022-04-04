@@ -297,6 +297,7 @@
     <None Include="Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_Transparent.shader" />
+    <None Include="Assets/Creator Of Path/Code/Population.dll" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Shaders/Hands_02.shader" />
@@ -560,6 +561,9 @@
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Population">
+      <HintPath>Assets/Creator Of Path/Code/Population.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -908,6 +912,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Polyperfect.Common.Player.csproj">
+      <Project>{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}</Project>
+      <Name>Polyperfect.Common.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Player.csproj">
       <Project>{D2977464-B63B-039B-DAB1-424F122E7630}</Project>
       <Name>Oculus.AudioManager.Player</Name>
@@ -944,6 +952,10 @@
       <Project>{39ED9644-4B26-970D-7990-CEDF889AF95F}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Polyperfect.Animals.Player.csproj">
+      <Project>{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}</Project>
+      <Name>Polyperfect.Animals.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.Player.csproj">
       <Project>{7A7A007E-C6EB-3270-3868-8D143112C58A}</Project>
       <Name>Facebook.WitAI.Player</Name>
@@ -979,14 +991,6 @@
     <ProjectReference Include="Oculus.Interaction.Samples.Player.csproj">
       <Project>{A23059E4-DECB-1885-C8F3-59B8DD8C0F57}</Project>
       <Name>Oculus.Interaction.Samples.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Polyperfect.Animals.Player.csproj">
-      <Project>{4510E7A1-083E-2AD8-1C04-BC259CFC56AF}</Project>
-      <Name>Polyperfect.Animals.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Polyperfect.Common.Player.csproj">
-      <Project>{0DEB8BAC-9C66-C46B-31FE-862BD80BCDEC}</Project>
-      <Name>Polyperfect.Common.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
