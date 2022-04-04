@@ -1030,6 +1030,14 @@
       <Project>{F35CEBA3-4769-7658-6F7A-02E6FDC05622}</Project>
       <Name>Oculus.Interaction.Samples</Name>
     </ProjectReference>
+    <ProjectReference Include="Polyperfect.Animals.csproj">
+      <Project>{61F4A65F-37D0-5956-0996-E917EC0428D8}</Project>
+      <Name>Polyperfect.Animals</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Common.csproj">
+      <Project>{B69CFB68-AC17-D243-1AF6-86C57AAC743E}</Project>
+      <Name>Polyperfect.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

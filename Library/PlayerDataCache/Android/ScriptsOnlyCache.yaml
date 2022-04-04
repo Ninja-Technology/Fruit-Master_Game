@@ -2,15 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AudioManager
-    - Bullet
     - CubeKiller
     - CubePhysics
     - CubeSpawnManager
-    - DestroyAfterSeconds
     - GameSceneManager
     - OvrAvatarSettings
     - ScoreManager
-    - Shooting
     - SliceListener
     - Slicer
     Oculus.Platform.dll:
@@ -25,6 +22,10 @@ ScriptsOnlyBuild:
     - OVRHeadsetEmulator
     - OVRManager
     - OVRRuntimeSettings
+    Polyperfect.Animals.dll:
+    - Polyperfect.Animals.AnimalPlaySound
+    - Polyperfect.Animals.Animal_AIStats
+    - Polyperfect.Animals.Animal_WanderScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -109,68 +110,70 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1710}
     - Class: 114
-      Script: {instanceID: 1866}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 2160}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2196}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2544}
     - Class: 114
-      Script: {instanceID: 2558}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2664}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3168}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 3878}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 5512}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 5546}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5622}
+      Script: {instanceID: 5720}
     - Class: 114
-      Script: {instanceID: 5678}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 5822}
+      Script: {instanceID: 5932}
     - Class: 114
-      Script: {instanceID: 5888}
+      Script: {instanceID: 6166}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6372}
     - Class: 114
-      Script: {instanceID: 6336}
+      Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 6448}
+      Script: {instanceID: 6496}
     - Class: 114
-      Script: {instanceID: 6452}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6708}
+      Script: {instanceID: 6760}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -269,6 +272,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.HandPosing
     className: HandGrabInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: Animals_WanderScriptEditor
   - hash:
       serializedVersion: 2
       Hash: c63c6734dca810c173dc3f954323df2a
@@ -517,6 +526,12 @@ ScriptsOnlyBuild:
     className: DotGridProperties
   - hash:
       serializedVersion: 2
+      Hash: 712027b6018e1edbe4ae888e00c3ec28
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: Animal_AIStats
+  - hash:
+      serializedVersion: 2
       Hash: efe8ea635f4376b8b908a7f4ce18ef9f
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -563,6 +578,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
     className: ONSPAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: Animal_SurfaceRotation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -625,6 +646,12 @@ ScriptsOnlyBuild:
     className: OVRMixedRealityCaptureTest
   - hash:
       serializedVersion: 2
+      Hash: 712027b6018e1edbe4ae888e00c3ec28
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: AIStats
+  - hash:
+      serializedVersion: 2
       Hash: e14ff447aaf62d9737c2447a225fa4ec
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -683,6 +710,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: OneHandPhysicsJointTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: e2e664096ddf813ef918842c1a3057c7
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: AnimalAudioManager
   - hash:
       serializedVersion: 2
       Hash: 1f74ed43dcd4b6debc2d1978f9f32eba
@@ -865,6 +898,12 @@ ScriptsOnlyBuild:
     className: HandPose
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_KillSwitch
+  - hash:
+      serializedVersion: 2
       Hash: 98e5fd32952d6cca03aab18bfaee5139
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -971,6 +1010,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: PointableCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_WanderManagerEditor
   - hash:
       serializedVersion: 2
       Hash: dd9c373ca0b1d189ced07555ee0aff36
@@ -1159,6 +1204,12 @@ ScriptsOnlyBuild:
     className: HmdRef
   - hash:
       serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_StatsTable
+  - hash:
+      serializedVersion: 2
       Hash: 59532a3a06d33cd14b7d9f6f9e4eb290
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection
@@ -1169,6 +1220,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: BoneCapsuleTriggerLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 63a57bc8b5696d5d871f8ef15ea2680a
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: RandomCharacterPlacer
   - hash:
       serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
@@ -1253,6 +1310,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: OneHandFreeTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 94c1e0edf9a5bd7c53c0482b0312758b
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_WanderScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1411,6 +1474,12 @@ ScriptsOnlyBuild:
     className: GrabManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_AnimationControl
+  - hash:
+      serializedVersion: 2
       Hash: 734b481983c905af1fca43d0beb7d1ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1525,6 +1594,12 @@ ScriptsOnlyBuild:
     className: WitStringValue
   - hash:
       serializedVersion: 2
+      Hash: 86fb71ef1baacbda8fbfa99517951402
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: AnimalWanderManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1541,6 +1616,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRRuntimeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_SurfaceRotation
   - hash:
       serializedVersion: 2
       Hash: 67b0a9b407ce1b934a53e6aea397cd70
@@ -1655,6 +1736,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e2e664096ddf813ef918842c1a3057c7
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_AudioManager
   - hash:
       serializedVersion: 2
       Hash: 713348bf2038f17d05593a6d20dda05f
@@ -1867,6 +1954,12 @@ ScriptsOnlyBuild:
     className: WitUtteranceMatcher
   - hash:
       serializedVersion: 2
+      Hash: 6214b888ff4baa12d6273e4d49086cc9
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: ToggleEvent
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.Oculus.dll
     namespaceName: Unity.XR.Oculus
@@ -1901,6 +1994,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_AnimSpeed
   - hash:
       serializedVersion: 2
       Hash: 413ff185991fe6c33162e110abc6a505
@@ -2257,6 +2356,12 @@ ScriptsOnlyBuild:
     className: AudioTrigger
   - hash:
       serializedVersion: 2
+      Hash: 86fb71ef1baacbda8fbfa99517951402
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_WanderManager
+  - hash:
+      serializedVersion: 2
       Hash: f8438efc679de058330bd3e038df1378
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -2389,6 +2494,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarLocalDriver
   - hash:
       serializedVersion: 2
+      Hash: 1dc6b26a3ec21562bf7ad1970daf2f60
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: AnimalPlaySound
+  - hash:
+      serializedVersion: 2
       Hash: e3c1245c145bb844f374b22f193f7d65
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -2503,6 +2614,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncDebugConsole
   - hash:
       serializedVersion: 2
+      Hash: e840026e72ed468715ea43d8bff08258
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_RandomInt
+  - hash:
+      serializedVersion: 2
       Hash: aba960fc740a2b46322c335d633fde8c
     assemblyName: Oculus.Interaction.Samples.dll
     namespaceName: Oculus.Interaction.Samples
@@ -2603,6 +2720,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
     className: OVRLipSyncContextCanned
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: SceneAnimatorController
   - hash:
       serializedVersion: 2
       Hash: 7200fc309b0ed180a81fb45217da51e4
@@ -2887,6 +3010,12 @@ ScriptsOnlyBuild:
     className: FingerTipPokeToolView
   - hash:
       serializedVersion: 2
+      Hash: 94c1e0edf9a5bd7c53c0482b0312758b
+    assemblyName: Polyperfect.Animals.dll
+    namespaceName: Polyperfect.Animals
+    className: Animal_WanderScript
+  - hash:
+      serializedVersion: 2
       Hash: a4ab9532686dbd13bc2c5bb58a3781ce
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -3011,6 +3140,18 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: P2PNetworkGoal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_WanderScriptEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 1dc6b26a3ec21562bf7ad1970daf2f60
+    assemblyName: Polyperfect.Common.dll
+    namespaceName: Polyperfect.Common
+    className: Common_PlaySound
   - hash:
       serializedVersion: 2
       Hash: a4b88f3b08f1f148e04c6c3d7544c9ec

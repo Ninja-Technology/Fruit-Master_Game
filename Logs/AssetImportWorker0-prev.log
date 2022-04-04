@@ -1,0 +1,1510 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63973
+Successfully changed project path to: /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game
+/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.61 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 6.30 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-02 08:12:52.317 Unity[23291:1019348] Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+2022-04-02 08:12:52.317 Unity[23291:1019348] Metal devices available: 2
+2022-04-02 08:12:52.317 Unity[23291:1019348] 0: AMD Radeon Pro 555 (high power)
+2022-04-02 08:12:52.317 Unity[23291:1019348] 1: Intel(R) HD Graphics 630 (low power)
+2022-04-02 08:12:52.317 Unity[23291:1019348] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56291
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000556 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 87.21 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.053437 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.101123 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 2643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 317.1 MB.
+System memory in use after: 316.0 MB.
+
+Unloading 508 unused Assets to reduce memory usage. Loaded Objects now: 3099.
+Total: 5.845966 ms (FindLiveObjects: 0.365324 ms CreateObjectMapping: 0.304441 ms MarkObjects: 3.978795 ms  DeleteObjects: 1.196208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/OculusPlatformSettings.asset
+  artifactKey: Guid(3324a31244c3942e3ac5e5e3f45ac973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OculusPlatformSettings.asset using Guid(3324a31244c3942e3ac5e5e3f45ac973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3aca59f26e6fe6aa1ca6b9a0f75e0') in 1.348389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Animated Loading Icons/Animations
+  artifactKey: Guid(a0fc4d48a5698486f9ac9cc056dae80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Loading Icons/Animations using Guid(a0fc4d48a5698486f9ac9cc056dae80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdffbc61af52650ceac55d2af27c2933') in 0.000943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(cab95971e2c8b43838f8b769987fb2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(cab95971e2c8b43838f8b769987fb2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc65e5766af72939c07a82c918f6fe') in 0.003452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(e226c8f58714142498403d1bbd41374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(e226c8f58714142498403d1bbd41374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880748a0a0ccdf2958083c2a94bd1a5a') in 0.003573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/OVRBuildConfig.asset
+  artifactKey: Guid(88bb9e9db5894406291987d612595e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig.asset using Guid(88bb9e9db5894406291987d612595e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c462436a9a52ee4ca9ac12596c6b66') in 0.002633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/OculusRuntimeSettings.asset
+  artifactKey: Guid(a72475923a13e423d834a0080c833763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OculusRuntimeSettings.asset using Guid(a72475923a13e423d834a0080c833763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eadd6277629762ecf604a5d17dbc688') in 0.004598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.516302 seconds.
+  path: Assets/Animated Loading Icons/Animations/Blinking anim
+  artifactKey: Guid(666bc49e1f1504521a93ffdabc078c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Loading Icons/Animations/Blinking anim using Guid(666bc49e1f1504521a93ffdabc078c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af15e158bb109fca65ca438389ada0a6') in 0.006292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.295686 seconds.
+  path: Assets/Animated Loading Icons/Animations/Blinking anim/Blinking 1
+  artifactKey: Guid(59697e9383af2498c91c51abcaa6ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Loading Icons/Animations/Blinking anim/Blinking 1 using Guid(59697e9383af2498c91c51abcaa6ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717ec99c1e5d100b090a6c205bfa4b81') in 0.006369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.015733 seconds.
+  path: Assets/Animated Loading Icons/Spritesheet
+  artifactKey: Guid(be16db04940564266beba328c30f4373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Loading Icons/Spritesheet using Guid(be16db04940564266beba328c30f4373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d926d152fc0c6664de4a6a90dc9ebd') in 0.006311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.947163 seconds.
+  path: Assets/Animated Loading Icons/Spritesheet/Icons Spritesheet.png
+  artifactKey: Guid(0fd21678280ad9c47aa2d32baf438c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Loading Icons/Spritesheet/Icons Spritesheet.png using Guid(0fd21678280ad9c47aa2d32baf438c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ab7680d652277aa818aefafbc9f1233a') in 1.619389 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3224ms)
+		BeginReloadAssembly (392ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (198ms)
+		EndReloadAssembly (2605ms)
+			LoadAssemblies (329ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1099ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (871ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (399ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 339.5 MB.
+System memory in use after: 339.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3138.
+Total: 5.249323 ms (FindLiveObjects: 0.676229 ms CreateObjectMapping: 0.204050 ms MarkObjects: 4.027780 ms  DeleteObjects: 0.339816 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1329.094007 seconds.
+  path: Assets/polyperfect
+  artifactKey: Guid(d11ec2441d57e40f7a7fc54ca65edced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect using Guid(d11ec2441d57e40f7a7fc54ca65edced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a57ff8379994de17bd2c69b664df631') in 0.011313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980476 seconds.
+  path: Assets/polyperfect/Common
+  artifactKey: Guid(766153515348db043b3d8e20d6e4cc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Common using Guid(766153515348db043b3d8e20d6e4cc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2280666045a2e1057577963304b31b8') in 0.006215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.268525 seconds.
+  path: Assets/polyperfect/Common/Wander Script
+  artifactKey: Guid(1133b766d0d9a3d4bac9923211461854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Common/Wander Script using Guid(1133b766d0d9a3d4bac9923211461854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd84fe0504d28304521594381c4ae5f') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.105417 seconds.
+  path: Assets/polyperfect/Common/Wander Script/Editor
+  artifactKey: Guid(a4c3f36f6610b9f49a65b2e6dd506c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Common/Wander Script/Editor using Guid(a4c3f36f6610b9f49a65b2e6dd506c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c547aa3266babe34c80709d1d54115') in 0.006632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.243602 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals
+  artifactKey: Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals using Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ff861f9896ab8e01a6e025607a1f62') in 0.006214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.930473 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/01 - Main Scene.unity
+  artifactKey: Guid(3b857e925cf52ac4c861518d4d94edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/01 - Main Scene.unity using Guid(3b857e925cf52ac4c861518d4d94edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d64d8f0cd0866e157be952a959dd661') in 0.016986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.178172 seconds.
+  path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+  artifactKey: Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity using Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086e237daa309e12c39a6d9d5d9b5ec1') in 0.006827 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1202ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 340.2 MB.
+System memory in use after: 340.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3141.
+Total: 4.496836 ms (FindLiveObjects: 0.247933 ms CreateObjectMapping: 0.141690 ms MarkObjects: 3.709863 ms  DeleteObjects: 0.396355 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245.400513 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs
+  artifactKey: Guid(0b6656709dc09e2498aa204f3608f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs using Guid(0b6656709dc09e2498aa204f3608f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ad816b631e02a8500d97f3a863631b') in 0.011130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.149928 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature
+  artifactKey: Guid(bf57536cc7a3a4ff4b788cfb7fc34246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature using Guid(bf57536cc7a3a4ff4b788cfb7fc34246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57805a859a868e54a0c21d473ac35775') in 0.006943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077140 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/bamboo-leaves.prefab
+  artifactKey: Guid(62fd7e46f2d0940749fb66c9443ff3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/bamboo-leaves.prefab using Guid(62fd7e46f2d0940749fb66c9443ff3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0b1cafc131778b766f758b8f37af15d5') in 0.882862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/carrot.prefab
+  artifactKey: Guid(9d4d39397bb3e4df98ac838ef29e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/carrot.prefab using Guid(9d4d39397bb3e4df98ac838ef29e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a8d2a2234d349a44d2e2bf174d755fd4') in 0.039690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-plane.prefab
+  artifactKey: Guid(7514b26b8c678431d8f9a9491a5abdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-plane.prefab using Guid(7514b26b8c678431d8f9a9491a5abdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '844a5df9ba03c57da09279c6b3f652da') in 0.038754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cat-ball.prefab
+  artifactKey: Guid(087f36ebde1fa4eaf8cd0af1ffdccff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cat-ball.prefab using Guid(087f36ebde1fa4eaf8cd0af1ffdccff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26ef9e138687954cad74adcb2075631') in 0.111990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/ground-cracked.prefab
+  artifactKey: Guid(5c5dc77a75a234354a770cd9149a9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/ground-cracked.prefab using Guid(5c5dc77a75a234354a770cd9149a9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9a991b39763a05c5261ad9b706f509e4') in 0.036368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/skull-human.prefab
+  artifactKey: Guid(bcb99a89be7cb4861b8b9cc63086322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/skull-human.prefab using Guid(bcb99a89be7cb4861b8b9cc63086322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bceeaece19d5857b1f444a2a7ccfbe7f') in 0.040164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-baobab.prefab
+  artifactKey: Guid(0adbe808ddb421445b8fc6fafbbad7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-baobab.prefab using Guid(0adbe808ddb421445b8fc6fafbbad7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5bea493407ac58fb55cf435eda2cacd5') in 0.047428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/stone-flat.prefab
+  artifactKey: Guid(0f6c3c2b59a164fdaa30536d7278dc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/stone-flat.prefab using Guid(0f6c3c2b59a164fdaa30536d7278dc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3431d3a853d91bdb4102e26a1f2a8e46') in 0.042923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-dead.prefab
+  artifactKey: Guid(dc5363e4f96074139a5af2e1df6a8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-dead.prefab using Guid(dc5363e4f96074139a5af2e1df6a8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e8af8b63da3b4699d60607de3be26841') in 0.043011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-long.prefab
+  artifactKey: Guid(733d22330513541ecaf4fc75aa46e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-long.prefab using Guid(733d22330513541ecaf4fc75aa46e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'eecfd0f9b3f73944ad3b914c329893a9') in 0.035411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/floe.prefab
+  artifactKey: Guid(b5423645bcfb34c0e97178ade782aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/floe.prefab using Guid(b5423645bcfb34c0e97178ade782aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f38b1f657fdebef0754f43905d7527ba') in 0.040115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-trunk.prefab
+  artifactKey: Guid(1ab418e4a3c7c4e7cb30ea72dcaadb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-trunk.prefab using Guid(1ab418e4a3c7c4e7cb30ea72dcaadb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '802864ffd28f250ef533b4660f3c85cd') in 0.037083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-maple-simple.prefab
+  artifactKey: Guid(85adf5b7ef98e4c928db93ceffd73a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-maple-simple.prefab using Guid(85adf5b7ef98e4c928db93ceffd73a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '70d73a0430e1d2b656c3f06b4ed08631') in 0.042540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-big.prefab
+  artifactKey: Guid(c1d54e9c4dea54e57a7688718a976b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-big.prefab using Guid(c1d54e9c4dea54e57a7688718a976b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '925af7dddc2ed5cd0c80a5a67821fdfc') in 0.048037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-simple.prefab
+  artifactKey: Guid(03a40e9b821914692bc0768af6fcf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-simple.prefab using Guid(03a40e9b821914692bc0768af6fcf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4fa4ed6fa32f400256f505d6e920e341') in 0.050350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab
+  artifactKey: Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab using Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f21f9b3979ddb5005e055692cc5de20d') in 0.050010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral_yellow.prefab
+  artifactKey: Guid(15b8649ecf421464586d535eba312f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral_yellow.prefab using Guid(15b8649ecf421464586d535eba312f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'afddf34e8e4ae0440fcd976a1c077b87') in 0.098189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral-small_orange.prefab
+  artifactKey: Guid(6d1248d6de7824b1892a9b1a1dd493f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral-small_orange.prefab using Guid(6d1248d6de7824b1892a9b1a1dd493f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '24e7a5f9769fa8c399bdaa039622f391') in 0.036838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/mushroom-toadstool.prefab
+  artifactKey: Guid(7cb53249603bf4885aaa12c74d647840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/mushroom-toadstool.prefab using Guid(7cb53249603bf4885aaa12c74d647840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '14514f1b5c530f9973d3930edf8fbed9') in 0.044772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-forest.prefab
+  artifactKey: Guid(81bce50924cffc644ae62c5a3c5c4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-forest.prefab using Guid(81bce50924cffc644ae62c5a3c5c4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4260e8cd56804349c9fabd60e3bc9088') in 0.036520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.151927 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals
+  artifactKey: Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals using Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fa40c81b3da2618be3aa84ad5aa988') in 0.006273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.371836 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI
+  artifactKey: Guid(2bbf352b872d71e48aa32ad6ec1e4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI using Guid(2bbf352b872d71e48aa32ad6ec1e4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c527f70f3a11d6c838da0da9339b6a') in 0.006672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104242 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI/button.prefab
+  artifactKey: Guid(5389548e06b86a043b3649e0edce3590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI/button.prefab using Guid(5389548e06b86a043b3649e0edce3590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65047050317ff2085441f9086ec44c6') in 0.034997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.048445 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props
+  artifactKey: Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props using Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e504383bd1987d3ca1e3ef4994a8f') in 0.006540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077572 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props/fence-classic.prefab
+  artifactKey: Guid(5b5ea93c44ed4437781305935ec54576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props/fence-classic.prefab using Guid(5b5ea93c44ed4437781305935ec54576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3bc9348bbbb4f0f0804bc33e4936a602') in 0.049583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.500003 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Anteater.prefab
+  artifactKey: Guid(36bbba94a6e2623429a9bf08ca2a07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Anteater.prefab using Guid(36bbba94a6e2623429a9bf08ca2a07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bbd668e15c933cbeba6ccf418124ff5f') in 0.261145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black-White.prefab
+  artifactKey: Guid(8deda24c4237fd94db95aa127822ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black-White.prefab using Guid(8deda24c4237fd94db95aa127822ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9e9e0eb084911f99f3ad378e12b0cea4') in 0.161343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab
+  artifactKey: Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab using Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1ce01700c1258e48a205443ce388b8c5') in 0.136659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Orange.prefab
+  artifactKey: Guid(7efd45947c60593499aa27f27b2fc943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Orange.prefab using Guid(7efd45947c60593499aa27f27b2fc943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '04c4d963195db149ebd6fe1dd14eb5c6') in 0.556226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab
+  artifactKey: Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab using Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4b90f7048d3a22c0de9cb7beb0dc5be6') in 0.098878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Crocodile.prefab
+  artifactKey: Guid(e0e6ac992a860c4468d220dfdd803cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Crocodile.prefab using Guid(e0e6ac992a860c4468d220dfdd803cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7b3158dbff73c6a476059fd299234454') in 0.232328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish White.prefab
+  artifactKey: Guid(d3619d6268c1bec4d97ce2d4e8ceaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish White.prefab using Guid(d3619d6268c1bec4d97ce2d4e8ceaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7f93f6eee162581711d8e49aca8831f4') in 0.064692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab
+  artifactKey: Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab using Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '63341823388eed3ba4d6c9dbf0b19efe') in 0.104646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Bear.prefab
+  artifactKey: Guid(fc3da0b1b2ade5f4b862ae549728831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Bear.prefab using Guid(fc3da0b1b2ade5f4b862ae549728831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2fba4f26a765465a8423bdafd78bebda') in 0.132806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Goat.prefab
+  artifactKey: Guid(762b5bfe811b776459417e9e29cbab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Goat.prefab using Guid(762b5bfe811b776459417e9e29cbab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '845e92d43d1b852c59a8b2c8b21ab3cf') in 0.063038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab
+  artifactKey: Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab using Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f6c50620bc257a7f2f5b7ceda226a102') in 0.059302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab
+  artifactKey: Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab using Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd61d8dffddcacdc20ef3854ef01bf365') in 0.080571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Chick.prefab
+  artifactKey: Guid(c7594b11390c45b438de8395d3f3a02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Chick.prefab using Guid(c7594b11390c45b438de8395d3f3a02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '233a4680e95953f670dbaefc91d61350') in 0.064407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Blue.prefab
+  artifactKey: Guid(1bc86ea021341ae4db28b1681bf8bc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Blue.prefab using Guid(1bc86ea021341ae4db28b1681bf8bc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c02f0dd9f9636d05b829e1a5d9d4fb3e') in 0.079470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Orange.prefab
+  artifactKey: Guid(60ba3272028897a42aa9c0e2eb37a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Orange.prefab using Guid(60ba3272028897a42aa9c0e2eb37a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd64054340a224fb810818ad486b05722') in 0.066584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Beaver.prefab
+  artifactKey: Guid(51051b5fe1184c0459e1341109b7f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Beaver.prefab using Guid(51051b5fe1184c0459e1341109b7f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b4c270e1e6988b69bec730e7320c449f') in 0.064480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab
+  artifactKey: Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab using Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3cdc3aa80eb43bded4a6fc1f1d19c65d') in 0.103565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Brown.prefab
+  artifactKey: Guid(28f32469152e3f64c95c5bc66ae60278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Brown.prefab using Guid(28f32469152e3f64c95c5bc66ae60278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '030fe953095cb34e92b499f475d57f3a') in 0.125888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Fish.prefab
+  artifactKey: Guid(a61d0b4c41dabf548be1eb07e22d847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Fish.prefab using Guid(a61d0b4c41dabf548be1eb07e22d847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4144632d4d9b67d973fe3f1a1c1d2081') in 0.039108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab
+  artifactKey: Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab using Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c4789959bfa27ef7b3a7ac7cd23af9c4') in 0.141736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua.prefab
+  artifactKey: Guid(7d00f2b1ff01045718e9dbb76d481352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua.prefab using Guid(7d00f2b1ff01045718e9dbb76d481352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0eb6ca3fc28509a63897da2b14df115e') in 0.081440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane Black.prefab
+  artifactKey: Guid(2724ea9d48f53a64299a8e5616a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane Black.prefab using Guid(2724ea9d48f53a64299a8e5616a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bc1bf845947692e979136fe80992a2ed') in 0.103920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Grey.prefab
+  artifactKey: Guid(3d5455030e8b8484c959b12ec1ec124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Grey.prefab using Guid(3d5455030e8b8484c959b12ec1ec124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2d13a584505fd5100a36a1b18384cbb0') in 0.098909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Black.prefab
+  artifactKey: Guid(c495d8b43fce1e94f8716eb35080cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Black.prefab using Guid(c495d8b43fce1e94f8716eb35080cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'aba8c1b24547d0e4277fee108f7add0d') in 0.103032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab
+  artifactKey: Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab using Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bd883c7a17d365ed7f40cd0602d077ac') in 0.249972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Buffalo.prefab
+  artifactKey: Guid(aa90861098184534f840458a3b768a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Buffalo.prefab using Guid(aa90861098184534f840458a3b768a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9f3ea21f585c78d406f9e86a380a55d0') in 0.115238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Silver.prefab
+  artifactKey: Guid(343956e15ca614042b6c7eae1aceb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Silver.prefab using Guid(343956e15ca614042b6c7eae1aceb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5b9e5e6c64dc9665332a748f69e27006') in 0.142661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer Gray.prefab
+  artifactKey: Guid(ed4615b93521e4b46a0973aa03b94732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer Gray.prefab using Guid(ed4615b93521e4b46a0973aa03b94732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '82ae1165ae0f85e85f9bc2ada65da1d6') in 0.054539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dove.prefab
+  artifactKey: Guid(ad328be74b297754db7fa8c465c143e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dove.prefab using Guid(ad328be74b297754db7fa8c465c143e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0582c8eb41de73dc0d757c089c88608c') in 0.075697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Eagle.prefab
+  artifactKey: Guid(c731d11969cd60b419af78b04aa24e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Eagle.prefab using Guid(c731d11969cd60b419af78b04aa24e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b2df579161f80750547a658e3b4d1a80') in 0.079723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black.prefab
+  artifactKey: Guid(82432984c7cfb7f40af9d8caaf71f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black.prefab using Guid(82432984c7cfb7f40af9d8caaf71f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5cecf52ddaf6d34e00cf466586e1104e') in 0.132596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Chimpanzee.prefab
+  artifactKey: Guid(cea42b34a5d5b484388618dcd553dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Chimpanzee.prefab using Guid(cea42b34a5d5b484388618dcd553dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd3a71dcf4fedc2b2449b5e06c6661d6d') in 0.089657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GoldenRetriever.prefab
+  artifactKey: Guid(16e5f48d612f744039dbecb3e834b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GoldenRetriever.prefab using Guid(16e5f48d612f744039dbecb3e834b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6dea07d64eeceb4f774000994d46a524') in 0.100070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Boar.prefab
+  artifactKey: Guid(1ef54cdace3ccbe438a80867c3b80014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Boar.prefab using Guid(1ef54cdace3ccbe438a80867c3b80014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b8aa07cb749175760e901d7680c4cb68') in 0.073196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Goos.prefab
+  artifactKey: Guid(bb867e2b3ddf3224aae142d742779cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Goos.prefab using Guid(bb867e2b3ddf3224aae142d742779cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9eeb3a86835bdf722dc0b1835a02b754') in 0.069988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab
+  artifactKey: Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab using Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5813b527011f5f5d3a37ebe2a0d7e724') in 0.152295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit Brown.prefab
+  artifactKey: Guid(829a5f61d90ac4c42b217bbfc1b3cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit Brown.prefab using Guid(829a5f61d90ac4c42b217bbfc1b3cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '701789ebcdc99e479ee2868edafbe1ec') in 0.223791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit White.prefab
+  artifactKey: Guid(69b122cc19161bc47908c71cd75dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit White.prefab using Guid(69b122cc19161bc47908c71cd75dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5d529f14c29d35ec270223025a89a6ee') in 0.215727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Roaster.prefab
+  artifactKey: Guid(4541f5dbcded3a14bb360e50267b8921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Roaster.prefab using Guid(4541f5dbcded3a14bb360e50267b8921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1426ea0ef4b8a8a9afc908e3fa717813') in 0.082729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab
+  artifactKey: Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab using Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c9b51333d0b1d6f2fa43f18ec0b58aa7') in 0.455225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Sheep.prefab
+  artifactKey: Guid(81c3e640da93ff644973aab33c31cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Sheep.prefab using Guid(81c3e640da93ff644973aab33c31cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '988e8e6fc4f5d46042cb1531a0c6accd') in 0.072281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seagul.prefab
+  artifactKey: Guid(70d97733042ab774ab2df5cd87b89efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seagul.prefab using Guid(70d97733042ab774ab2df5cd87b89efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bb8a712a718fa3b66568ad7ebb568115') in 0.037042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Penguin.prefab
+  artifactKey: Guid(6817fd3c5809228498530e5ebe58f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Penguin.prefab using Guid(6817fd3c5809228498530e5ebe58f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e113ff6dcaf2d243bc095f4dde065c77') in 0.069087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Ostrich.prefab
+  artifactKey: Guid(c34c48e7f6755d1408d2408ee45670a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Ostrich.prefab using Guid(c34c48e7f6755d1408d2408ee45670a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5b72700b8ca3532e451bf1efc1f8bb5a') in 0.370023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Tucan.prefab
+  artifactKey: Guid(b24e5a714cc799947a8d48455616cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Tucan.prefab using Guid(b24e5a714cc799947a8d48455616cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7bc189617fa37464c2751ff6d60e2ff4') in 0.077719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Vulture.prefab
+  artifactKey: Guid(572f4219beab12d4190ba3e799d656e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Vulture.prefab using Guid(572f4219beab12d4190ba3e799d656e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c6bfefd362dc96dcd94652667e1941b1') in 0.077805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Squirrel.prefab
+  artifactKey: Guid(c18682d3e4c3fbf4cbf14216af86a1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Squirrel.prefab using Guid(c18682d3e4c3fbf4cbf14216af86a1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9a4d853ebc8e8e17ee8a8b627a34a10e') in 0.065904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rhino_Rig.prefab
+  artifactKey: Guid(8c8a22ddff71f284b87ca2537e62b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rhino_Rig.prefab using Guid(8c8a22ddff71f284b87ca2537e62b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '40a76ddc057a24467084b0ae5b535da8') in 0.063731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Yellow.prefab
+  artifactKey: Guid(d1b394efe4dbeb14f8a20e2e04bf1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Yellow.prefab using Guid(d1b394efe4dbeb14f8a20e2e04bf1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f36e45ee01c78714d0f20884f96bc224') in 0.444202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark Black.prefab
+  artifactKey: Guid(60f0387c246cf014aad3931e71e20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark Black.prefab using Guid(60f0387c246cf014aad3931e71e20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f1753df490215d91f1a0de694a45625d') in 0.310623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Sheep Wool.prefab
+  artifactKey: Guid(1c58fd9a6b9949e4cbbde7aa0909a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Sheep Wool.prefab using Guid(1c58fd9a6b9949e4cbbde7aa0909a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '773b9c9103ce5db7ab40a7602927ed59') in 0.057292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Squid.prefab
+  artifactKey: Guid(af95db8d0b472304b90e85813a358473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Squid.prefab using Guid(af95db8d0b472304b90e85813a358473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'eb02341e3410c90750bd9a9b0d6983ec') in 0.070368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Black.prefab
+  artifactKey: Guid(54f08473df2a94348a95272458da3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Black.prefab using Guid(54f08473df2a94348a95272458da3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a9081b1ddc8ae9394cf2ba1ab7e0a70d') in 0.034508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Yellow.prefab
+  artifactKey: Guid(2ef322c53a036124bad12637f603d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Yellow.prefab using Guid(2ef322c53a036124bad12637f603d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c3fb99b5fa70cbc423896a57fdd72563') in 0.089854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Grey.prefab
+  artifactKey: Guid(1159fbfcf2d66ee4b896abb3e41d47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Grey.prefab using Guid(1159fbfcf2d66ee4b896abb3e41d47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2ab89324de30182eb82a3535c3af6aad') in 0.039386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Green.prefab
+  artifactKey: Guid(c4fa44d6ad133e0409f10009615a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Green.prefab using Guid(c4fa44d6ad133e0409f10009615a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0a7c77bc7fc40a74a1afdfadd59fc04a') in 0.092903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seal.prefab
+  artifactKey: Guid(be05097336edc0041853585fa70d5644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seal.prefab using Guid(be05097336edc0041853585fa70d5644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3a561fa3fa36e9787d6ec7cd441433a7') in 0.058648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Octopus.prefab
+  artifactKey: Guid(e7710c2aaaf25a34b84ab06308a7a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Octopus.prefab using Guid(e7710c2aaaf25a34b84ab06308a7a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b4729b5768f0ec0e702e5fcadbd167bd') in 0.078726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Red.prefab
+  artifactKey: Guid(fc9ece646c03b5d4f8c2d3adfb6ffa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Red.prefab using Guid(fc9ece646c03b5d4f8c2d3adfb6ffa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2e443590b917df0288d55636ef079dca') in 0.089445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Polar Bear.prefab
+  artifactKey: Guid(6ee0769bd911abd4aad799c0b81cab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Polar Bear.prefab using Guid(6ee0769bd911abd4aad799c0b81cab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c55e2eda0ea8d486c772a2766b5c54d1') in 0.100483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Starfish.prefab
+  artifactKey: Guid(3f5c613256bb8481cbafc1d34aa1184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Starfish.prefab using Guid(3f5c613256bb8481cbafc1d34aa1184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '27ee1c020952ddaf4b099da5ee8feb9d') in 0.044651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Pig.prefab
+  artifactKey: Guid(5d1a771e20c6c75418fd9b0a5f6d2677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Pig.prefab using Guid(5d1a771e20c6c75418fd9b0a5f6d2677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0dd718b80f7a38559585937be94e8b86') in 0.074330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark White.prefab
+  artifactKey: Guid(8f52d003b4269954485d3d0b9ed4139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark White.prefab using Guid(8f52d003b4269954485d3d0b9ed4139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5fcd5507e4d8348322c191dad90ce0ae') in 0.033794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Tiger.prefab
+  artifactKey: Guid(c5e7161780bfc06459e1d0fd1cefd777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Tiger.prefab using Guid(c5e7161780bfc06459e1d0fd1cefd777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8fcbefc1a50d93e0152053a795d762ba') in 0.071492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Walrus.prefab
+  artifactKey: Guid(cdb8af048cdea6742ba75d9a3b969593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Walrus.prefab using Guid(cdb8af048cdea6742ba75d9a3b969593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1d29ffc15f2458170684118ad2552b64') in 0.067070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Giraffe.prefab
+  artifactKey: Guid(0d9eb53229fd4e4428e17f457310aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Giraffe.prefab using Guid(0d9eb53229fd4e4428e17f457310aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '03042eea27bcbb77b2dac674b83012c2') in 0.076431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Black.prefab
+  artifactKey: Guid(0ca7c81f5e8d6c64792a13aef1f23bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Black.prefab using Guid(0ca7c81f5e8d6c64792a13aef1f23bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '013791e3dde57958d3d1856dcc2b15ec') in 0.250412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Hen.prefab
+  artifactKey: Guid(82d1fda3c9baa1a4cb7cdb02a5cb60e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Hen.prefab using Guid(82d1fda3c9baa1a4cb7cdb02a5cb60e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '50adf7ce426dcdeea18aaff74a1b72bd') in 0.078032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Lion.prefab
+  artifactKey: Guid(01653bbcfb6a45a4fb274560c93f7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Lion.prefab using Guid(01653bbcfb6a45a4fb274560c93f7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '328a0aaa5353470ac606e92495872da1') in 0.103445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Orca.prefab
+  artifactKey: Guid(83e5f758f79d148b898ca89e7d3207ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Orca.prefab using Guid(83e5f758f79d148b898ca89e7d3207ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '57b9edcbfdbcf48803723a8fe45298b6') in 0.035158 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 329.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.283062 ms (FindLiveObjects: 0.280394 ms CreateObjectMapping: 0.139807 ms MarkObjects: 3.528724 ms  DeleteObjects: 0.333336 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.06 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 329.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.119817 ms (FindLiveObjects: 0.273994 ms CreateObjectMapping: 0.145809 ms MarkObjects: 3.362345 ms  DeleteObjects: 0.337024 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 329.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.259241 ms (FindLiveObjects: 0.273290 ms CreateObjectMapping: 0.148069 ms MarkObjects: 3.480394 ms  DeleteObjects: 0.356851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.42 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 329.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.867650 ms (FindLiveObjects: 0.260278 ms CreateObjectMapping: 0.147800 ms MarkObjects: 4.113007 ms  DeleteObjects: 0.345809 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 329.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.375560 ms (FindLiveObjects: 0.285268 ms CreateObjectMapping: 0.126898 ms MarkObjects: 3.605175 ms  DeleteObjects: 0.357579 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3344.610640 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO
+  artifactKey: Guid(0544b76c6e047448e8d23fd51350e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO using Guid(0544b76c6e047448e8d23fd51350e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215736e8af8f618a39f8f066a956a2ee') in 0.002137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214907 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Bear_demo.prefab
+  artifactKey: Guid(ce467225a50fe4d6f831c74165c7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Bear_demo.prefab using Guid(ce467225a50fe4d6f831c74165c7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a99cd9906a2b9a57b4f97d230afb3e40') in 0.173262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Shark_demo.prefab
+  artifactKey: Guid(037c87e47b2ee481d99038516ec01a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Shark_demo.prefab using Guid(037c87e47b2ee481d99038516ec01a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b33c4daaf912e9e0222d97ac2abe1637') in 0.052736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Fish_demo.prefab
+  artifactKey: Guid(802e67588477e490eacd6920ddb32a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Fish_demo.prefab using Guid(802e67588477e490eacd6920ddb32a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ecfec779b8d928ca4bd0fe377416ee84') in 0.037556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Seagul_demo.prefab
+  artifactKey: Guid(1480ce673e7a841369926e9115e65ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Seagul_demo.prefab using Guid(1480ce673e7a841369926e9115e65ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'eaffc8081c2013c81ae1afd4535cc5aa') in 0.040841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Crocodile_demo.prefab
+  artifactKey: Guid(369388cfb3f544dc293204b93421f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Crocodile_demo.prefab using Guid(369388cfb3f544dc293204b93421f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '12e664d0f0c8e901387cc85fcfd78b25') in 0.115886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Deer_demo.prefab
+  artifactKey: Guid(31ac114fcb19c4c358a554a43dd43b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Deer_demo.prefab using Guid(31ac114fcb19c4c358a554a43dd43b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '046f118309a49290e84c88f16fe18876') in 0.067291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Giraffe_demo.prefab
+  artifactKey: Guid(56b52d48de33242fdaf9b0b34b2ce076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Giraffe_demo.prefab using Guid(56b52d48de33242fdaf9b0b34b2ce076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '98ef9af07539fbadbbb1ece7b7bfa0f7') in 0.090123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Snake_demo.prefab
+  artifactKey: Guid(4c828f339c332427492611b718276025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Snake_demo.prefab using Guid(4c828f339c332427492611b718276025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8dbc6508c4cef97ba32feaa9b04799e8') in 0.499576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Elephant_demo.prefab
+  artifactKey: Guid(34fcc7611699f4010a541d34a7ff28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Elephant_demo.prefab using Guid(34fcc7611699f4010a541d34a7ff28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '426618260565adf26e743db38e7a9e5b') in 0.154399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Wolf_demo.prefab
+  artifactKey: Guid(f406d1c0c739e449f904bf3954f17620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Wolf_demo.prefab using Guid(f406d1c0c739e449f904bf3954f17620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b6aa55440d92f79a5d930799d12bb69b') in 0.043869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Horse_demo.prefab
+  artifactKey: Guid(7d978be19989a4b4980b2f3ff09138c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Horse_demo.prefab using Guid(7d978be19989a4b4980b2f3ff09138c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'de91ca8d9f9db278cd03c1c6d689f461') in 0.030278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-GoldenRetriever_demo.prefab
+  artifactKey: Guid(38ce382cb2ca74f3d8efb95fdb210e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-GoldenRetriever_demo.prefab using Guid(38ce382cb2ca74f3d8efb95fdb210e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f97848da161340d6386fdb016dc2e48a') in 0.111343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-GreatDane_demo.prefab
+  artifactKey: Guid(02c3eb1e1eeca4a0baacfbead60eaa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-GreatDane_demo.prefab using Guid(02c3eb1e1eeca4a0baacfbead60eaa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b171a85cd552cc6080f2cac1ab690687') in 0.113765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Cow_demo.prefab
+  artifactKey: Guid(f33d28b62654f43548073eac88ec2e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Cow_demo.prefab using Guid(f33d28b62654f43548073eac88ec2e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a8778b2593d63aa41c64526955373e9b') in 0.141713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/JellyFish_demo.prefab
+  artifactKey: Guid(878eef31fea7e4ca1887a8f9b2331c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/JellyFish_demo.prefab using Guid(878eef31fea7e4ca1887a8f9b2331c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '154e844c830e3fd5469ac9d37e1e5123') in 0.072820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Orca_demo.prefab
+  artifactKey: Guid(c4a90d087f9be4595874fb1d146e9dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Orca_demo.prefab using Guid(c4a90d087f9be4595874fb1d146e9dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '19fbdd3aeb10bc0d48879756fb6c4cb6') in 0.045392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Gorilla_demo.prefab
+  artifactKey: Guid(1a91eecb60b164b148e0a6b3828427cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Gorilla_demo.prefab using Guid(1a91eecb60b164b148e0a6b3828427cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1dc485def89bcfde8d2e5042010e22cc') in 0.165960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Starfish_demo.prefab
+  artifactKey: Guid(6ae254963893f4811ae79cba65777dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Starfish_demo.prefab using Guid(6ae254963893f4811ae79cba65777dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fd9e1e368cba215ccbb50e7cfb28a4f0') in 0.053369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-Chihuahua_demo.prefab
+  artifactKey: Guid(881f7b647f892402cb194d72891c6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Dog-Chihuahua_demo.prefab using Guid(881f7b647f892402cb194d72891c6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bd16089f9ee1f651b2d7de11128dbe5b') in 0.109107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Bear_polar_demo.prefab
+  artifactKey: Guid(b808c2a59943f4e82824567db55f03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Bear_polar_demo.prefab using Guid(b808c2a59943f4e82824567db55f03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9439c80b49a7919cc3771168c6a81420') in 0.116475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Rabbit_demo.prefab
+  artifactKey: Guid(ea2deeacba3a84df18be6183612ea07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Rabbit_demo.prefab using Guid(ea2deeacba3a84df18be6183612ea07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a8574063cf0b0cb4655d410d11338377') in 0.261230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Cat_demo.prefab
+  artifactKey: Guid(a4de01c43a6b748caaee82a2c75c4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Cat_demo.prefab using Guid(a4de01c43a6b748caaee82a2c75c4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a990b3eb51a5899c1694a48302336fa2') in 0.300214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Penguin_demo.prefab
+  artifactKey: Guid(2e427f555f3f340c7a65546ad2a81a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Penguin_demo.prefab using Guid(2e427f555f3f340c7a65546ad2a81a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9ba5f0295502cf279149c53f43d19cd3') in 0.088114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Spider_demo.prefab
+  artifactKey: Guid(652878394fa0e41deb08911ec350a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/DEMO/Spider_demo.prefab using Guid(652878394fa0e41deb08911ec350a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ba81d37dd87c005ad8d9957f13d0ae5a') in 0.103799 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.4 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.985290 ms (FindLiveObjects: 0.276136 ms CreateObjectMapping: 0.127005 ms MarkObjects: 4.217545 ms  DeleteObjects: 0.363759 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.4 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.445952 ms (FindLiveObjects: 0.261677 ms CreateObjectMapping: 0.245622 ms MarkObjects: 3.573326 ms  DeleteObjects: 0.364631 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.5 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.355048 ms (FindLiveObjects: 0.429634 ms CreateObjectMapping: 0.150363 ms MarkObjects: 3.415034 ms  DeleteObjects: 0.359250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.5 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.760331 ms (FindLiveObjects: 0.260279 ms CreateObjectMapping: 0.138486 ms MarkObjects: 3.944828 ms  DeleteObjects: 0.415851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.5 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.369142 ms (FindLiveObjects: 0.270978 ms CreateObjectMapping: 0.120307 ms MarkObjects: 3.593280 ms  DeleteObjects: 0.383875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.5 MB.
+System memory in use after: 335.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 4.346302 ms (FindLiveObjects: 0.273726 ms CreateObjectMapping: 0.134183 ms MarkObjects: 3.506590 ms  DeleteObjects: 0.431180 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,4 +1,5 @@
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Assembly-CSharp.dll"
+-a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Polyperfect.Common.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Oculus.AudioManager.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Oculus.Spatializer.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll"
@@ -9,6 +10,7 @@
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Unity.Subsystem.Registration.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
+-a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Polyperfect.Animals.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Facebook.WitAI.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
 -a="/Users/macbookpro2017/Unity Project/Fruit-Warrior_Game/Library/PlayerScriptAssemblies/Oculus.VR.dll"
