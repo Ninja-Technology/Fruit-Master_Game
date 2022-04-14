@@ -236,6 +236,13 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/VibrationManager.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/Slicer_LeftHand.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrailDemo.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/SplineControlPoint.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/Spline.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrail.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/VertexPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
@@ -279,12 +286,14 @@
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader" />
+    <None Include="Assets/XWeaponTrail/Shader/xft_displacement_screen.shader" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/Ninja Fruit Games/Shaders/EnvironmentLights.shader" />
     <None Include="Assets/Ninja Fruit Games/Shaders/CubeSliceFX.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Shaders/OculusSampleAlphaHandOutline.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/GlowEffect.shader" />
+    <None Include="Assets/XWeaponTrail/readme.txt" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/OculusSampleTrainSmokeShader.shader" />
     <None Include="Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Shaders/UI Prerendered Opaque.shader" />
@@ -297,7 +306,6 @@
     <None Include="Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_Transparent.shader" />
-    <None Include="Assets/Creator Of Path/Code/Population.dll" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Shaders/Hands_02.shader" />
@@ -519,9 +527,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Population">
-      <HintPath>Assets/Creator Of Path/Code/Population.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

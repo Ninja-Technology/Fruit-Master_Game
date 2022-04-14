@@ -65,13 +65,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Editor/AndroidVideoEditorUtil.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/Editor/TeleportTransitionWarpInspector.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Editor/MediaPlayerImageEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/StandingPeopleStreetEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/PopulationSystemManagerEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/StandingPeopleConcertEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/WalkPathEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/MovePathEditor.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/EditorMenu.cs" />
-    <Compile Include="Assets/Creator Of Path/Editor/PopulationSystemEditor/NewPathEditor.cs" />
+    <Compile Include="Assets/XWeaponTrail/Editor/XWeaponTrailEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -319,9 +313,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Population">
-      <HintPath>Assets/Creator Of Path/Code/Population.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
