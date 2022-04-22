@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{4D24A99F-2B4D-F620-967D-65502693A626}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ninja Fruit Games/Scripts/DelaySound.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ninja Fruit Games/Scripts/LobbyMenu.cs">
     <Files>
       <File FileName="Assets/Ninja Fruit Games/Scripts/LobbyMenu.cs" Line="34" Column="9" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/RandomGameSceneMusic.cs" Line="8" Column="5" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/LobbyHoverMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/DelaySound.cs" Line="12" Column="55" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/RandomGameSceneMusic.cs" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/LobbyHoverMenu.cs" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/DelaySound.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0fab6bb4-9930-4f79-8f8a-bbf29d58c9a4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1ad7e93-8652-4ec9-ba7b-b33fb715a642" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

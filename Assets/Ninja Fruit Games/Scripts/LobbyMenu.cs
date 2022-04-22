@@ -22,7 +22,7 @@ public class LobbyMenu : MonoBehaviour
     {
         
         timeCountDownCanvas.SetActive(false); //hide countdown UI on start
-        creditCanvas.SetActive(false); //hide credit UI on start
+        //creditCanvas.SetActive(false); //hide credit UI on start
     }
 
 
@@ -37,6 +37,8 @@ public class LobbyMenu : MonoBehaviour
         ////Playing Sound for count down
         AudioManager.instance.countDownVoice.gameObject.transform.position = transform.position;
         AudioManager.instance.countDownVoice.Play();
+
+        menuCanvas.SetActive(false); //hide main menu screen
 
         //Start the game
         StartCoroutine(StartGame(10));
