@@ -2152,6 +2152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218599440}
   - component: {fileID: 218599441}
+  - component: {fileID: 218599442}
   m_Layer: 0
   m_Name: MusicTheme
   m_TagString: Untagged
@@ -2183,7 +2184,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 56bf00543acd44eeab2a189172ddcbd4, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2269,6 +2270,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &218599442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218599439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd84f5250e7bc42b090f3535181347ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 56bf00543acd44eeab2a189172ddcbd4, type: 3}
+  - {fileID: 8300000, guid: f46153d80982f43f5bac33018b3d83aa, type: 3}
+  - {fileID: 8300000, guid: ab6c12e612d0940478e53aebdf66a43c, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1001 &221895431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7292,8 +7310,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648349800}
-  m_LocalRotation: {x: 0.017515548, y: -0.8923401, z: 0.034756485, w: 0.44968247}
-  m_LocalPosition: {x: 61.05, y: 27.82, z: 41.09}
+  m_LocalRotation: {x: 0.021261182, y: -0.8369798, z: 0.03260017, w: 0.545848}
+  m_LocalPosition: {x: 75.18, y: 27.82, z: 55.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 764702503}
@@ -7301,7 +7319,7 @@ Transform:
   - {fileID: 1944686530}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.461, y: -113.778, z: 0}
 --- !u!1001 &648900220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9793,7 +9811,7 @@ MonoBehaviour:
   - {fileID: 1802840387486672, guid: 8f38e57a49b1c844081ad6bb3c553f13, type: 3}
   - {fileID: 1638444836145330, guid: 031f4f4b1f7d8b7489da0919e18ceac3, type: 3}
   - {fileID: 1541859410316496, guid: 4fe5a7bcbee1651418ea031a87ff53e4, type: 3}
-  - {fileID: 1329430274803916, guid: 8c8c7d8f829a2d24ebe78eddb5eaff57, type: 3}
+  - {fileID: 1458338295271390, guid: e0a3c763ec1f9804ab3f8b69bb5e4644, type: 3}
   - {fileID: 1763817136346132, guid: 0f3575c567ebe8241a4a6ad511fd7017, type: 3}
   - {fileID: 1724972533694550, guid: 63e523ab5d9ce7348b431ae1d689a54d, type: 3}
   - {fileID: 1125202155953082, guid: 573bb482e4baeec4386587db7cc07515, type: 3}

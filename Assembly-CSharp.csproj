@@ -61,9 +61,11 @@
     <Compile Include="Assets/Ninja Fruit Games/Scripts/SliceTest.cs" />
     <Compile Include="Assets/ezy-slice-master/EzySlice/Framework/TextureRegion.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Firebase/StartCrashlytics.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrail.cs" />
     <Compile Include="Assets/Ninja Fruit Games/Scripts/CubeExplode.cs" />
     <Compile Include="Assets/Ninja Fruit Games/Scripts/CubePhysics.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/HandsActiveChecker.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/SplineControlPoint.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughBrush.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughController.cs" />
@@ -80,8 +82,10 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransition.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs" />
     <Compile Include="Assets/Ninja Fruit Games/Scripts/DestroyAfterSeconds.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrailDemo.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughProjectionSurface.cs" />
     <Compile Include="Assets/ezy-slice-master/EzySlice/Framework/Intersector.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/Spline.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/GazeTarget.cs" />
     <Compile Include="Assets/Oculus/Voice/Demo/Scripts/BuiltinDemo/WitActivation.cs" />
     <Compile Include="Assets/Oculus/Voice/Demo/Scripts/BuiltinDemo/TimerDisplay.cs" />
@@ -101,6 +105,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/EnableUnpremultipliedAlpha.cs" />
     <Compile Include="Assets/Oculus/Voice/Demo/Scripts/BuiltinDemo/TimerController.cs" />
     <Compile Include="Assets/Ninja Fruit Games/Scripts/AudioManager.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/VibrationManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Plugins/Android/NativeVideoPlayer.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ButtonTriggerZone.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimVisualLaser.cs" />
@@ -120,6 +125,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableRegistry.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/RandomGameSceneMusic.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabbable.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/Utils/Pose.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/HandsManager.cs" />
@@ -154,8 +160,10 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionBlink.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/PinchStateModule.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/LobbyMenu.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs" />
+    <Compile Include="Assets/Ninja Fruit Games/Scripts/LobbyHoverMenu.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsCreator.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/WindmillBladesController.cs" />
@@ -164,6 +172,7 @@
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerTouch.cs" />
+    <Compile Include="Assets/XWeaponTrail/Scripts/VertexPool.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs" />
     <Compile Include="Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/Instructions.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Firebase/SampleUI.cs" />
@@ -236,13 +245,6 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
-    <Compile Include="Assets/Ninja Fruit Games/Scripts/VibrationManager.cs" />
-    <Compile Include="Assets/Ninja Fruit Games/Scripts/Slicer_LeftHand.cs" />
-    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrailDemo.cs" />
-    <Compile Include="Assets/XWeaponTrail/Scripts/SplineControlPoint.cs" />
-    <Compile Include="Assets/XWeaponTrail/Scripts/Spline.cs" />
-    <Compile Include="Assets/XWeaponTrail/Scripts/XWeaponTrail.cs" />
-    <Compile Include="Assets/XWeaponTrail/Scripts/VertexPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
@@ -307,6 +309,7 @@
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_Transparent.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Fruits Pack/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Shaders/Hands_02.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_DiffBump.shader" />
