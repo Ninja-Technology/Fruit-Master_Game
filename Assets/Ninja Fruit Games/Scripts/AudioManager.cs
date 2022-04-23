@@ -9,9 +9,11 @@ public class AudioManager : MonoBehaviour
     public AudioSource gunSound;
     public AudioSource musicTheme;
     public AudioSource buttonClickSound;
-
+    public AudioSource countDownVoice;
+    public AudioSource welcomeAndInstructionVoice;
 
     public static AudioManager instance;
+
 
     private void Awake()
     {

@@ -56,12 +56,14 @@ public class ButtonPushClick : MonoBehaviour
         GetComponent<MeshRenderer>().material = greenMat;
         GetComponent<Collider>().isTrigger = true;
 
-        ////Playing Sound
+
+        //Playing Sound
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
 
+
         //Start the game
-        StartCoroutine(StartGame(3));
+        StartCoroutine(StartGame(10));
       
     }
 
@@ -71,7 +73,6 @@ public class ButtonPushClick : MonoBehaviour
         timeText.text = countDownValue.ToString();
         timeCountDownCanvas.SetActive(true);
 
-        
         while (countDownValue > 0)
         {
 
@@ -82,17 +83,22 @@ public class ButtonPushClick : MonoBehaviour
 
         }
         //Load Scene
-        
-        
+        SceneLoader.instance.LoadScene("rpgpp_lt_scene_1.0");
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (isClicked)
         {
-            ////Playing Sound
+
+            ////Playing Sound for button click
             AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
             AudioManager.instance.buttonClickSound.Play();
+
+            ////Playing Sound for count down
+            AudioManager.instance.countDownVoice.gameObject.transform.position = transform.position;
+            AudioManager.instance.countDownVoice.Play();
         }
     }
 
