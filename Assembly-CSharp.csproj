@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4D24A99F-2B4D-F620-967D-65502693A626}</ProjectGuid>
+    <ProjectGuid>{D667A3B4-58C8-4FCE-A88F-6D952ECF9E01}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -879,175 +879,175 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Polyperfect.Common.csproj">
-      <Project>{B69CFB68-AC17-D243-1AF6-86C57AAC743E}</Project>
+      <Project>{9BFAAFFA-6A0C-43E8-7B49-9EAD3C331AAA}</Project>
       <Name>Polyperfect.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{0F3C5909-146E-3DFF-D24A-9A7E4F2FDB4E}</Project>
+      <Project>{2DABC108-D146-C1A1-022F-A21F56E76691}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{D16B4F9C-9DBD-A8B3-1542-C4E51AE2E955}</Project>
+      <Project>{AF5AEC25-AFD1-B1B3-EDFB-138AFC79230A}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{EBD2538E-DD06-8606-F552-16AE244064C1}</Project>
+      <Project>{6DCD512B-A540-B859-AD61-389B610F1FF9}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
-      <Project>{EF7AF520-AB59-966B-0FD0-4A2322A6689B}</Project>
+      <Project>{95DCFB02-F390-AEB2-BB40-1D7C234E4FCF}</Project>
       <Name>AssistantCoreSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{D6559D40-0853-5D65-11C8-90F85951E82B}</Project>
+      <Project>{3477A4C3-84F4-4846-FDA7-181780A1DBFC}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{0C2CF3E4-11E4-4CDD-90B3-7395ECA495EE}</Project>
+      <Project>{2E9FAB5B-0DB3-ACB0-B6CB-F3B6FC75A986}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{B1746E2B-8E00-DC4F-CB23-898FFDCE8E54}</Project>
+      <Project>{3E8A56D6-6D5C-B965-5349-30B8131F04EC}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{D1F4AB9F-A7CC-0B73-299E-F2B4BEA11F0F}</Project>
+      <Project>{3F687C69-2A9F-BDFD-0B5C-A19DED7B09F1}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{ADA9BF36-23D0-59C1-109E-10A9A3DF0909}</Project>
+      <Project>{3E693693-2623-1E7B-1819-7C6C85D0AD18}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9FF5CA4F-AAA5-0D9B-7C15-855D92209245}</Project>
+      <Project>{3625644F-0268-0C3C-E2E0-4D9D72EA6173}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{B5B6B0CC-71DE-7C65-E4F7-26469223C6FA}</Project>
+      <Project>{C648DB66-9D1D-D2F4-CC1E-77F3F46A2BD8}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{88C67CB7-01DF-841E-CF31-6130D9BB46E9}</Project>
+      <Project>{B6E47412-160D-E47D-11A6-A3C81C04450C}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{0F9D0B26-A1EC-FF7F-4879-18C2A949EF6D}</Project>
+      <Project>{BF352A5F-EAA2-F54A-3488-7B75630EBA2C}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{34C44FE4-4344-EACD-4ABE-D73AAEAEB10A}</Project>
+      <Project>{798A874F-02C7-0D43-43C3-CAB5BEE38321}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{C537BC60-739A-A7BE-E9E6-291D8CD11162}</Project>
+      <Project>{3408D90D-0676-453B-04A8-4341A426E4A5}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{0A4721AC-A69F-AC69-8BDA-B0774207A6DD}</Project>
+      <Project>{0DF36447-18C3-71FB-78C6-092A1BAD6103}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{380808CE-FAD4-D59F-6CB4-09CA1FAD6336}</Project>
+      <Project>{5B689257-BFEB-67EF-B0DB-BC9F94680D1F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{2CCAA5F4-6640-8BFC-EAA2-D54117328F9E}</Project>
+      <Project>{31AB7406-48E0-1B77-68C5-5B844D467CA5}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{1D6096ED-F7EC-C775-3EA5-5A776861A0FB}</Project>
+      <Project>{8A3DA93B-C087-4DE5-4D84-9A7A311FAFB1}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{25964B59-5453-A178-9986-31480B1F5BC6}</Project>
+      <Project>{4597EC6D-15D8-52A4-9634-86790B11DDB7}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{03F1A6C7-943A-C73C-BC2C-80730CD4B870}</Project>
+      <Project>{9E4E8A88-DC69-243B-EAD3-1FC86D1BE91C}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Polyperfect.Animals.csproj">
-      <Project>{61F4A65F-37D0-5956-0996-E917EC0428D8}</Project>
+      <Project>{F075027D-D147-9ACA-2102-CAE8D0F7F3EE}</Project>
       <Name>Polyperfect.Animals</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{12D7BE5D-F9AB-BAA2-E787-8ECE096A223F}</Project>
+      <Project>{B90B2AA0-27D8-4753-FBE1-B7EE148CD399}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{A661D07C-D5CF-FDB9-AD51-277033C8FEF7}</Project>
+      <Project>{7CE38050-FF08-530A-6FA3-F31CF9D486CE}</Project>
       <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
-      <Project>{E32B8A01-76E9-6D1A-8706-6ABFDCD6BC6C}</Project>
+      <Project>{9D6A92B1-BB27-AE2C-D8F3-C433A3305016}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{90D6111B-4B01-FB3F-EB32-2532E535A24F}</Project>
+      <Project>{28425C61-D33B-F35C-A673-193F1D66A833}</Project>
       <Name>Facebook.Wit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{4F9380ED-B27C-DCD9-76C3-4551175FC0D0}</Project>
+      <Project>{D53D70D5-2EFF-4242-1A37-C7365A93D4AD}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{7CDBBA03-CC9E-89A0-66B0-7E544DA35053}</Project>
+      <Project>{085E1AA2-6517-52F5-05B8-C7060B5CF042}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{EA4DDBBF-21ED-06D1-7FBD-FDC82FD0746C}</Project>
+      <Project>{9731C4CE-D169-C900-234A-C7B621E867FD}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{2C1A86DF-E838-E4DC-C3AF-4D4FC72FBF9F}</Project>
+      <Project>{31AF6381-568E-AF68-BFC2-63AF7B70AC72}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{5905075B-D8C4-9C7A-FC58-DB167B804772}</Project>
+      <Project>{8C255642-D801-E95F-CCB2-739599227309}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{9A44C15F-1238-C32A-A37F-182BF1E5EBC0}</Project>
+      <Project>{C402236F-9A80-8D42-4E1E-8103D826ED7C}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{F2EFBDC4-493C-9691-6857-C2EC52723EC4}</Project>
+      <Project>{52BCD132-E6AB-7D47-9B87-E92A4893A7AE}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{292F54A4-99E7-293F-C785-557354F3C852}</Project>
+      <Project>{C115D8E4-B289-19F5-A454-9D3C1065CAA0}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{6FBDFDC1-2E36-67F9-6425-9DCDC3A2427D}</Project>
+      <Project>{D17503A4-767A-E719-A774-A7892085A9CC}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{4BCC536F-A4C6-41B8-11A3-C01E26F40F11}</Project>
+      <Project>{7B199AC9-3054-0559-AB1B-89466013AB5C}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{2A1985F9-B953-5CFB-11AE-3A549C368282}</Project>
+      <Project>{3D1B8D70-ECD6-C3BF-9681-C9D82381B350}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
-      <Project>{4CA07029-CB6E-22F2-F010-31B8973AF517}</Project>
+      <Project>{5E7F061E-F627-EE9F-6EAE-6A941685C98E}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{DC8DFE38-8AF2-D0E6-2A51-93A7C46E2D93}</Project>
+      <Project>{81F185BE-F5C2-AC58-B381-CB08FF49CFAE}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{E6DF2760-599B-0D50-1D73-98456886261E}</Project>
+      <Project>{3C1E9DB0-4847-B63F-B7DB-3070BCCCE3F7}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{8BF05497-6271-0175-1D4F-E30668A70572}</Project>
+      <Project>{7F6DC5C8-069B-D012-0073-4DC1AA6C7A8F}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.csproj">
-      <Project>{F35CEBA3-4769-7658-6F7A-02E6FDC05622}</Project>
+      <Project>{2217B499-D1DC-47B2-8D90-7E35F7C1666A}</Project>
       <Name>Oculus.Interaction.Samples</Name>
     </ProjectReference>
   </ItemGroup>

@@ -344,7 +344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &15486601
 Transform:
   m_ObjectHideFlags: 0
@@ -13347,13 +13347,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 70c7a482cf0264c4d8cb5faec79cdd55, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.886
+  m_Volume: 0.915
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -13438,12 +13438,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806101391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.4609075, z: -1.1510735}
-  m_LocalScale: {x: 3.982953, y: 3.982953, z: 3.982953}
+  m_LocalRotation: {x: -0.10835337, y: 0.4993922, z: 0.06485742, w: -0.8571234}
+  m_LocalPosition: {x: -0.91552734, y: -1.0127497, z: -11.113029}
+  m_LocalScale: {x: 0.97924024, y: 0.7078364, z: 0.9935972}
   m_Children: []
-  m_Father: {fileID: 1095723095}
-  m_RootOrder: 3
+  m_Father: {fileID: 1253996841}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &808327438
 PrefabInstance:
@@ -16964,7 +16964,6 @@ Transform:
   - {fileID: 1326461170}
   - {fileID: 2081506376}
   - {fileID: 1328783586}
-  - {fileID: 806101393}
   m_Father: {fileID: 15486601}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19355,6 +19354,7 @@ RectTransform:
   - {fileID: 538886378}
   - {fileID: 1369235311}
   - {fileID: 2101346052}
+  - {fileID: 806101393}
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -14.508, y: -41.192, z: 0.175}
