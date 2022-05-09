@@ -15,6 +15,8 @@ public class LobbyMenu : MonoBehaviour
 
     public GameObject menuCanvas;
     public GameObject creditCanvas;
+    public GameObject instructionCanvas;
+
     //----------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -23,6 +25,7 @@ public class LobbyMenu : MonoBehaviour
         
         timeCountDownCanvas.SetActive(false); //hide countdown UI on start
         creditCanvas.SetActive(false); //hide credit UI on start
+        instructionCanvas.SetActive(false); //hide instructions UI on start
     }
 
 
@@ -38,7 +41,8 @@ public class LobbyMenu : MonoBehaviour
         AudioManager.instance.countDownVoice.gameObject.transform.position = transform.position;
         AudioManager.instance.countDownVoice.Play();
 
-     //   menuCanvas.SetActive(false); //hide main menu screen
+        //   menuCanvas.SetActive(false); //hide main menu screen
+       
 
         //Start the game
         StartCoroutine(StartGame(10));
@@ -53,11 +57,23 @@ public class LobbyMenu : MonoBehaviour
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
 
+        creditCanvas.SetActive(false); //set credit screen to true 
+        menuCanvas.SetActive(false); //hide main menu screen
+        instructionCanvas.SetActive(true); //set to show instructions screen
+
     }
     public void OnCreditsClicked()
     {
+        //Playing click button sound effect
+        AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
+        AudioManager.instance.buttonClickSound.Play();
+
+
         menuCanvas.SetActive(false); //hide main menu screen
+        instructionCanvas.SetActive(false); //hide instructions screen
         creditCanvas.SetActive(true); //set credit screen to true
+
+
         GetComponent<Animation>()["Credit"].wrapMode = WrapMode.Once;
         GetComponent<Animation>().Play("Credit");
 
@@ -78,7 +94,9 @@ public class LobbyMenu : MonoBehaviour
 
         creditCanvas.SetActive(false); //set credit screen to true 
         menuCanvas.SetActive(true); //hide main menu screen
+        instructionCanvas.SetActive(false); //hide instructions screen
     }
+
 
 
     // start game function

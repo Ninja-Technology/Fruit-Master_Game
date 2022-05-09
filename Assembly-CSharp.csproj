@@ -70,7 +70,6 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughBrush.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughController.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" />
-    <Compile Include="Assets/Ninja Fruit Games/Scripts/DelaySound.cs" />
     <Compile Include="Assets/ezy-slice-master/EzySlice/Framework/Line.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ColliderZone.cs" />

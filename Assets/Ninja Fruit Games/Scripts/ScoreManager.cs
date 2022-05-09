@@ -54,6 +54,58 @@ public class ScoreManager : MonoBehaviour
         //Also, update the final score
         finalScoreText.text = currentScore.ToString();
 
+        //play a crowd suspense sound if user gets a 100 points
+        if (currentScore == 100 )
+        {
+            AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
+            AudioManager.instance.kidsCheering.Play();
+
+            AudioManager.instance.OneHundredPoint.gameObject.transform.position = transform.position;
+            AudioManager.instance.OneHundredPoint.Play();
+        }
+
+        //play a crowd surprise sound if user get a 200 points
+        if(currentScore == 200)
+        {
+            AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
+            AudioManager.instance.kidsCheering.Play();
+
+            AudioManager.instance.TwoHundredPoint.gameObject.transform.position = transform.position;
+            AudioManager.instance.TwoHundredPoint.Play();
+        }
+
+        //play a crowd surprise sound if user get a 300 points
+        if (currentScore == 300)
+        {
+            AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
+            AudioManager.instance.kidsCheering.Play();
+
+            AudioManager.instance.ThreeHundredPoint.gameObject.transform.position = transform.position;
+            AudioManager.instance.ThreeHundredPoint.Play();
+        }
+
+        //play a crowd surprise sound if user get a 400 points
+        if (currentScore == 400)
+        {
+            AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
+            AudioManager.instance.kidsCheering.Play();
+
+            AudioManager.instance.FourHundredPoint.gameObject.transform.position = transform.position;
+            AudioManager.instance.FourHundredPoint.Play();
+        }
+
+        //play a crowd surprise sound if user get a 500 points
+        if (currentScore == 500)
+        {
+            AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
+            AudioManager.instance.kidsCheering.Play();
+
+            AudioManager.instance.FiveHundredPoint.gameObject.transform.position = transform.position;
+            AudioManager.instance.FiveHundredPoint.Play();
+        }
+
+ 
+        //-----------------------------------------------------------------------
         if (currentScore > PlayerPrefs.GetInt("HighScore",0))
         {
             PlayerPrefs.SetInt("HighScore",currentScore);

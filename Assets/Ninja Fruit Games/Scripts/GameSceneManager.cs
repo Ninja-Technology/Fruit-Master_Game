@@ -75,9 +75,13 @@ public class GameSceneManager : MonoBehaviour
         //enable final score
         finalScoreUI_GameObject.SetActive(true);
 
+        ////Playing click button sound effect
+        AudioManager.instance.gameOver.gameObject.transform.position = transform.position;
+        AudioManager.instance.gameOver.Play();
+
         //putting the final score in front of OVR CameraRig
-        finalScoreUI_GameObject.transform.rotation = Quaternion.Euler(Vector3.zero);
-        finalScoreUI_GameObject.transform.position = GameObject.Find("OVRCameraRig").transform.position + new Vector3(0,2.0f,4.0f);
+        finalScoreUI_GameObject.transform.rotation = Quaternion.Euler(new Vector3(0, -90, 0));
+        finalScoreUI_GameObject.transform.position = GameObject.Find("OVRCameraRig").transform.position + new Vector3(-3, 2.0f, -0.3f);
     }
 
 
@@ -87,5 +91,11 @@ public class GameSceneManager : MonoBehaviour
         return timeText;
     }
 
-  
+
+    public void BackToLobbyScene()
+    {
+        SceneLoader.instance.LoadScene("Lobby");
+    }
+
+
 }

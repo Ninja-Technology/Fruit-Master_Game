@@ -10,7 +10,17 @@ public class AudioManager : MonoBehaviour
     public AudioSource musicTheme;
     public AudioSource buttonClickSound;
     public AudioSource countDownVoice;
-    public AudioSource welcomeAndInstructionVoice;
+    public AudioSource gameOver;
+
+    //added
+    public AudioSource OneHundredPoint;
+    public AudioSource TwoHundredPoint;
+    public AudioSource ThreeHundredPoint;
+    public AudioSource FourHundredPoint;
+    public AudioSource FiveHundredPoint;
+    public AudioSource kidsCheering;
+
+
 
     public static AudioManager instance;
 

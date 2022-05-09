@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{D667A3B4-58C8-4FCE-A88F-6D952ECF9E01}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ninja Fruit Games/Scripts/GameSceneManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ninja Fruit Games/Scripts/CubePhysics.cs">
     <Files>
-      <File FileName="Assets/Ninja Fruit Games/Scripts/LobbyMenu.cs" Line="41" Column="8" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/LobbyMenu.cs" Line="19" Column="1" />
       <File FileName="Assets/Ninja Fruit Games/Scripts/ButtonPushClick.cs" Line="60" Column="8" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/Slicer.cs" Line="37" Column="1" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/GameSceneManager.cs" Line="80" Column="126" />
-      <File FileName="Assets/Ninja Fruit Games/Scripts/ScorePoints.cs" Line="8" Column="46" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/ScoreManager.cs" Line="87" Column="54" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/Slicer.cs" Line="29" Column="57" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/GameSceneManager.cs" Line="63" Column="79" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/AudioManager.cs" Line="11" Column="41" />
+      <File FileName="Assets/Ninja Fruit Games/Scripts/CubePhysics.cs" Line="12" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac547beb-e629-4ffe-9e4b-d4cc2025223b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="17d05be8-3bc8-485b-bc77-d3593bf01544" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
