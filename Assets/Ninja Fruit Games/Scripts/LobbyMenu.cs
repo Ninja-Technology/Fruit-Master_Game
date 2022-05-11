@@ -22,10 +22,24 @@ public class LobbyMenu : MonoBehaviour
 
     void Start()
     {
-        
+
         timeCountDownCanvas.SetActive(false); //hide countdown UI on start
         creditCanvas.SetActive(false); //hide credit UI on start
         instructionCanvas.SetActive(false); //hide instructions UI on start
+
+        //Playing lobby background sound
+        AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
+        AudioManager.instance.lobbyAudio.Play();
+
+        //creditCanvas.SetActive(false); //set credit screen to true 
+        //menuCanvas.SetActive(false); //hide main menu screen
+        //instructionCanvas.SetActive(true); //set to show instructions screen
+
+
+        //////Playing Sound for count down
+        //AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
+        //AudioManager.instance.lobbyAudio.Pause();
+
     }
 
 
@@ -57,6 +71,10 @@ public class LobbyMenu : MonoBehaviour
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
 
+        ////Pause Lobby background sound
+        AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
+        AudioManager.instance.lobbyAudio.Pause();
+
         creditCanvas.SetActive(false); //set credit screen to true 
         menuCanvas.SetActive(false); //hide main menu screen
         instructionCanvas.SetActive(true); //set to show instructions screen
@@ -78,11 +96,13 @@ public class LobbyMenu : MonoBehaviour
         GetComponent<Animation>().Play("Credit");
 
     }
-    public void OnButtonClicked()
+    public void OnQuitClicked()
     {
         //Playing click button sound effect
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
+
+        Application.Quit(); //quits the application
 
     }
 
@@ -91,6 +111,10 @@ public class LobbyMenu : MonoBehaviour
         //Playing click button sound effect
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
+
+        //Playing lobby background sound
+        AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
+        AudioManager.instance.lobbyAudio.Play();
 
         creditCanvas.SetActive(false); //set credit screen to true 
         menuCanvas.SetActive(true); //hide main menu screen

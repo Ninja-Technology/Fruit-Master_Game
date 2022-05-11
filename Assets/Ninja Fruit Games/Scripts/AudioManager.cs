@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource buttonClickSound;
     public AudioSource countDownVoice;
     public AudioSource gameOver;
+    public AudioSource lobbyAudio;
 
     //added
     public AudioSource OneHundredPoint;

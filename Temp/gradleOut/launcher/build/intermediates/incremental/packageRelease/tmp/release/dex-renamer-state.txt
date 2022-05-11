@@ -1,4 +1,0 @@
-#Sun May 08 15:17:49 CST 2022
-base.0=/Users/macbookpro2017/Unity Project/Fruit-Master_Game/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
