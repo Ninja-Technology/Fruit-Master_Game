@@ -57,7 +57,7 @@ public class ScoreManager : MonoBehaviour
         //play a crowd suspense sound if user gets a 100 points
         if (currentScore == 100 )
         {
-
+            AudioManager.instance.musicTheme.gameObject.transform.position = transform.position;
             AudioManager.instance.musicTheme.Pause();
 
             AudioManager.instance.kidsCheering.gameObject.transform.position = transform.position;
@@ -66,7 +66,8 @@ public class ScoreManager : MonoBehaviour
             AudioManager.instance.OneHundredPoint.gameObject.transform.position = transform.position;
             AudioManager.instance.OneHundredPoint.Play();
 
-            AudioManager.instance.musicTheme.Play();
+            StartCoroutine(WaitSmall()); //wait for 3 seconnds and resume the background music
+
         }
 
         //play a crowd surprise sound if user get a 200 points
@@ -80,7 +81,7 @@ public class ScoreManager : MonoBehaviour
             AudioManager.instance.TwoHundredPoint.gameObject.transform.position = transform.position;
             AudioManager.instance.TwoHundredPoint.Play();
 
-            AudioManager.instance.musicTheme.Play();
+            StartCoroutine(WaitSmall()); //wait for 3 seconnds and resume the background music
 
         }
 
@@ -95,7 +96,7 @@ public class ScoreManager : MonoBehaviour
             AudioManager.instance.ThreeHundredPoint.gameObject.transform.position = transform.position;
             AudioManager.instance.ThreeHundredPoint.Play();
 
-            AudioManager.instance.musicTheme.Play();
+            StartCoroutine(WaitSmall()); //wait for 3 seconnds and resume the background music
 
         }
 
@@ -110,7 +111,7 @@ public class ScoreManager : MonoBehaviour
             AudioManager.instance.FourHundredPoint.gameObject.transform.position = transform.position;
             AudioManager.instance.FourHundredPoint.Play();
 
-            AudioManager.instance.musicTheme.Play();
+            StartCoroutine(WaitSmall()); //wait for 3 seconnds and resume the background music
         }
 
         //play a crowd surprise sound if user get a 500 points
@@ -124,7 +125,7 @@ public class ScoreManager : MonoBehaviour
             AudioManager.instance.FiveHundredPoint.gameObject.transform.position = transform.position;
             AudioManager.instance.FiveHundredPoint.Play();
 
-            AudioManager.instance.musicTheme.Play();
+            StartCoroutine(WaitSmall()); //wait for 3 seconnds and resume the background music
         }
 
  
@@ -136,4 +137,11 @@ public class ScoreManager : MonoBehaviour
 
         }
     }
+
+    IEnumerator WaitSmall()
+    {
+        yield return new WaitForSeconds(3f);
+        AudioManager.instance.musicTheme.Play();
+    }
+
 }

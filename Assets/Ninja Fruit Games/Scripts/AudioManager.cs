@@ -13,13 +13,19 @@ public class AudioManager : MonoBehaviour
     public AudioSource gameOver;
     public AudioSource lobbyAudio;
 
-    //added
+    //added during game mode
     public AudioSource OneHundredPoint;
     public AudioSource TwoHundredPoint;
     public AudioSource ThreeHundredPoint;
     public AudioSource FourHundredPoint;
     public AudioSource FiveHundredPoint;
     public AudioSource kidsCheering;
+
+    //for menu audio hover help
+    public AudioSource start;
+    public AudioSource instructions;
+    public AudioSource credits;
+    public AudioSource quit;
 
 
 

@@ -1,39 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LobbyHoverMenu : MonoBehaviour
 {
-    public AudioSource mySounds;
-    public AudioClip hoverGameStart_Voice;
-    public AudioClip hoverInstruction_Voice;
-    public AudioClip hoverCredit_Voice;
-    public AudioClip hoverQuit_Voice;
+
+    public UnityEvent OnEnter;
+    public UnityEvent OnExit;
+    public AudioSource audio;
 
 
-    //hover action for buttons
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
+        TrigExit.instance.currentCollider = GetComponent<LobbyHoverMenu>();
 
+        audio.Play();
+
+        OnEnter.Invoke();
     }
 
-    //button hover
 
-    public void HoverGameStart()
-    {
-        mySounds.PlayOneShot(hoverGameStart_Voice);
-    }
-
-    public void HoverInstruction()
-    {
-        //mySounds.PlayOneShot(hoverGameStart_Voice);
-    }
-    public void HoverCreditVoice()
-    {
-        //mySounds.PlayOneShot(hoverGameStart_Voice);
-    }
-    public void HoverQuitGame()
-    {
-        //mySounds.PlayOneShot(hoverGameStart_Voice);
-    }
 }

@@ -31,15 +31,6 @@ public class LobbyMenu : MonoBehaviour
         AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
         AudioManager.instance.lobbyAudio.Play();
 
-        //creditCanvas.SetActive(false); //set credit screen to true 
-        //menuCanvas.SetActive(false); //hide main menu screen
-        //instructionCanvas.SetActive(true); //set to show instructions screen
-
-
-        //////Playing Sound for count down
-        //AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
-        //AudioManager.instance.lobbyAudio.Pause();
-
     }
 
 
@@ -86,6 +77,9 @@ public class LobbyMenu : MonoBehaviour
         AudioManager.instance.buttonClickSound.gameObject.transform.position = transform.position;
         AudioManager.instance.buttonClickSound.Play();
 
+        ////Pause Lobby background sound
+        AudioManager.instance.lobbyAudio.gameObject.transform.position = transform.position;
+        AudioManager.instance.lobbyAudio.Pause();
 
         menuCanvas.SetActive(false); //hide main menu screen
         instructionCanvas.SetActive(false); //hide instructions screen

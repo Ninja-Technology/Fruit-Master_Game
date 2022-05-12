@@ -33,7 +33,8 @@ public class SceneLoader : MonoBehaviour
         overlay_LoadingText.enabled = true;
 
         GameObject centerEyeAnchor = GameObject.Find("CenterEyeAnchor");
-        overlay_LoadingText.gameObject.transform.position = centerEyeAnchor.transform.position + new Vector3(0, 0, 3f);
+        overlay_LoadingText.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, -90, 0));
+        overlay_LoadingText.gameObject.transform.position = centerEyeAnchor.transform.position + new Vector3(-7, 0, -0.9f);
 
         //waiting for some seconds to prevent "pop" to new scene
         yield return new WaitForSeconds(6f);

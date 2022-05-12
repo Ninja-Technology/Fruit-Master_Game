@@ -39,6 +39,10 @@ public class GameSceneManager : MonoBehaviour
         finalScoreUI_GameObject.SetActive(false);
         currentScoreUI_GameObject.SetActive(true);
 
+        ////Playing click button sound effect
+        AudioManager.instance.musicTheme.gameObject.transform.position = transform.position;
+        AudioManager.instance.musicTheme.Play();
+
     }
 
 
