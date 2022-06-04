@@ -19,6 +19,7 @@ public class TrigExit : MonoBehaviour
 
     private void OnDisable()
     {
+     
         currentCollider.OnExit.Invoke();
 
     }

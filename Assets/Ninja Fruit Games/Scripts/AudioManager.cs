@@ -27,7 +27,9 @@ public class AudioManager : MonoBehaviour
     public AudioSource credits;
     public AudioSource quit;
 
-
+    public AudioSource thirtySecondsLeft;
+    public AudioSource tenSecondsLeft;
+    public AudioSource fiveSecondsLeft;
 
     public static AudioManager instance;
 

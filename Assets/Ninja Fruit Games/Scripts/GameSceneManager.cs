@@ -11,7 +11,7 @@ public class GameSceneManager : MonoBehaviour
     public GameObject timerUI_Gameobject;
 
     [Header("Managers")]
-    public GameObject cubeSpawnManager;
+    public GameObject fruitSpawnManager;
 
     //Audio related
     float audioClipLength;
@@ -56,6 +56,36 @@ public class GameSceneManager : MonoBehaviour
             timeText.text = ConvertToMinAndSeconds(countdownValue);
 
             progressBarImage.fillAmount = (AudioManager.instance.musicTheme.time / audioClipLength);
+            Debug.Log("current number "+ timeText.text);
+
+            if(timeText.text == "00:30")
+            {
+               // AudioManager.instance.musicTheme.Pause();
+                ////Playing click button sound effect
+                AudioManager.instance.thirtySecondsLeft.gameObject.transform.position = transform.position;
+                AudioManager.instance.thirtySecondsLeft.Play();
+                //StartCoroutine(WaitSmall(2f));
+            }
+
+    
+            if (timeText.text == "00:10")
+            {
+                //AudioManager.instance.musicTheme.Pause();
+                ////Playing click button sound effect
+                AudioManager.instance.tenSecondsLeft.gameObject.transform.position = transform.position;
+                AudioManager.instance.tenSecondsLeft.Play();
+               // StartCoroutine(WaitSmall(2f));
+            }
+
+
+            if (timeText.text == "00:05")
+            {
+               // AudioManager.instance.musicTheme.Pause();
+                ////Playing click button sound effect
+                AudioManager.instance.fiveSecondsLeft.gameObject.transform.position = transform.position;
+                AudioManager.instance.fiveSecondsLeft.Play();
+               // StartCoroutine(WaitSmall(3f));
+            }
 
         }
         GameOver();
@@ -68,7 +98,7 @@ public class GameSceneManager : MonoBehaviour
         timeText.text = ConvertToMinAndSeconds(0);
 
         //Disable cube spawning
-        cubeSpawnManager.SetActive(false);
+        fruitSpawnManager.SetActive(false);
 
         //Disable timer UI
         timerUI_Gameobject.SetActive(false);
@@ -99,6 +129,13 @@ public class GameSceneManager : MonoBehaviour
     public void BackToLobbyScene()
     {
         SceneLoader.instance.LoadScene("Lobby");
+    }
+
+
+    IEnumerator WaitSmall(float f)
+    {
+        yield return new WaitForSeconds(f);
+        AudioManager.instance.musicTheme.Play();
     }
 
 
